@@ -1,0 +1,65 @@
+/* itoroapps.com — один файл стилей на весь сайт.
+   Только системные шрифты и ни одного внешнего запроса: сайт не грузит
+   чужие шрифты и скрипты, поэтому ему не нужен cookie-баннер. */
+:root {
+  --bg: #fbfaf7;
+  --text: #1c1b19;
+  --muted: #6b6862;
+  --line: #e4e1da;
+  --accent: #8a3b12;
+  --panel: #f3f1ec;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161514;
+    --text: #ecebe8;
+    --muted: #a3a09a;
+    --line: #34322f;
+    --accent: #f0a77a;
+    --panel: #201f1d;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 0 1rem; }
+header.site { border-bottom: 1px solid var(--line); }
+header.site .wrap { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding-top: 1rem; padding-bottom: 1rem; flex-wrap: wrap; }
+header.site a.brand { font-weight: 600; color: var(--text); text-decoration: none; letter-spacing: -0.01em; }
+header.site nav a { color: var(--muted); text-decoration: none; margin-left: 1rem; font-size: 0.94rem; }
+header.site nav a:first-child { margin-left: 0; }
+header.site nav a:hover, header.site nav a[aria-current] { color: var(--text); }
+main { padding: 2rem 0 3rem; }
+h1 { font-size: 2rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 0.25rem; }
+h2 { font-size: 1.2rem; margin: 2.25rem 0 0.5rem; }
+h3 { font-size: 1.02rem; margin: 1.5rem 0 0.25rem; }
+p, ul, dl { margin: 0 0 1rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.35rem; }
+a { color: var(--accent); }
+.meta { color: var(--muted); font-size: 0.94rem; margin-bottom: 1.5rem; }
+.lang { font-size: 0.94rem; color: var(--muted); }
+.lang a { margin-right: 0.75rem; }
+.summary { background: var(--panel); border-radius: 12px; padding: 1rem 1.25rem 0.25rem; margin: 1.5rem 0; }
+.summary h2 { margin-top: 0; }
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1.25rem; }
+dl.facts dt { color: var(--muted); }
+dl.facts dd { margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 30rem) { dl.facts { grid-template-columns: 1fr; } dl.facts dd { margin-bottom: 0.5rem; } }
+details { border-top: 1px solid var(--line); padding: 0.75rem 0; }
+details:last-of-type { border-bottom: 1px solid var(--line); }
+summary { cursor: pointer; font-weight: 600; }
+details > *:not(summary) { margin-top: 0.5rem; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0 2rem; }
+footer.site { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
+footer.site .wrap { padding-top: 1.25rem; padding-bottom: 2rem; }
+footer.site a { color: var(--muted); }
+.apps { list-style: none; padding: 0; }
+.apps li { border-top: 1px solid var(--line); padding: 1rem 0; }
+.apps a.name { font-weight: 600; font-size: 1.1rem; }
