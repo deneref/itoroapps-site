@@ -15,7 +15,7 @@ No scripts, cookies, analytics or external requests — so no cookie banner.
 
 Rules
 - Policy text changes first here, then the app release; bump «Last updated» in the same change.
-- Contact mailbox on the pages: `meticulo@itoroapps.com` until the owner says otherwise.
+- Contact mailbox on every page: `lexito@itoroapps.com` (owner 21.11.2026; the app sends feedback there too, FIX-139).
 - iPhone mock-ups in `docs/lexito/img/*.webp` are screenshots flattened into Apple's iPhone 17 Pro bezel
   (Apple Design Resources licence: mock-up depictions only — never commit the bare bezel PNG).
   Re-made with `bin/landing_bezel.swift` in the app repo.
