@@ -175,7 +175,7 @@ footer small{font-size:12px}
 .stage::before{content:"";position:absolute;inset:-56px -50vw -48px;z-index:-1;pointer-events:none;background:linear-gradient(transparent,var(--bg) 48px,var(--bg) calc(100% - 56px),transparent)}
 .cam{transform:scale(.8);transform-origin:50% 0;margin:0 -42px calc(613px*-.2)}
 .steps{grid-row:2}
-.steps li{min-height:55vh;text-align:center;align-items:center}
+.steps li{min-height:32vh;text-align:center;align-items:center}
 }
 h1,h2{text-wrap:balance}p{text-wrap:pretty}
 @media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
@@ -256,7 +256,7 @@ tr.me td{transition:color .4s}
 :root{--glint:#2E9BD0;--glintA:.36}
 @media (prefers-color-scheme:dark){:root{--glint:#5EC3EA;--glintA:.44}}
 .page{position:relative}
-.glints{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden}
+.glints{position:fixed;inset:0 0 auto;height:calc(100lvh + 200px);pointer-events:none;z-index:-1;overflow:hidden}
 .glint{position:absolute;display:block}
 .glints .glint{left:0;top:0;will-change:transform,opacity;transform-origin:50% 50%}
 .glints .glint i{display:block;width:100%;height:100%;background:var(--blob) 0 0/100% 100% no-repeat;will-change:transform}
@@ -322,7 +322,7 @@ html:not(.js) .screen.vscr{background-image:url(/verbisto/img/vvod-k2-3x.webp)}h
 .lift.on{opacity:1;transform:scale(1.07);box-shadow:0 14px 34px rgba(31,110,160,.22),0 0 0 1px rgba(31,110,160,.06)}
 .cam:not([data-s="0"]):not([data-s="4"]){border-radius:0;box-shadow:none;background:none}
 @media (max-width:760px){
-.cam{transform:scale(.8);transform-origin:50% 0;margin:0 -42px calc(760px*-.2)}
+.cam{transform:scale(.7);transform-origin:50% 0;margin:0 -63px calc(760px*-.3)}
 }
 @media (prefers-reduced-motion:reduce){.phone,.lift{transition:opacity .3s}}
 
@@ -563,7 +563,7 @@ function aim(){const s=+cam.dataset.s,W=420,H=760,pw=phone.offsetWidth,ph=phone.
  const k=1.38,cy=ph*(69+(r[1]+r[3])/2*2622)/2760;phone.style.transform=`translate(${(W-k*pw)/2}px,${H/2-k*cy}px) scale(${k})`}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
  document.querySelectorAll('.steps li.on').forEach(l=>l.classList.remove('on'));
- e.target.classList.add('on');cam.dataset.s=e.target.dataset.s;aim()}),{rootMargin:matchMedia('(max-width:760px)').matches?'-70% 0px -20% 0px':'-50% 0px -40% 0px'});
+ e.target.classList.add('on');cam.dataset.s=e.target.dataset.s;aim()}),{rootMargin:matchMedia('(max-width:760px)').matches?'-58% 0px -30% 0px':'-50% 0px -40% 0px'});
 document.querySelectorAll('.steps li').forEach(l=>io.observe(l));aim();
 </script>
 <script>
