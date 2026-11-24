@@ -175,7 +175,7 @@ footer small{font-size:12px}
 .stage::before{content:"";position:absolute;inset:-56px -50vw -48px;z-index:-1;pointer-events:none;background:linear-gradient(transparent,var(--bg) 48px,var(--bg) calc(100% - 56px),transparent)}
 .cam{transform:scale(.8);transform-origin:50% 0;margin:0 -42px calc(613px*-.2)}
 .steps{grid-row:2}
-.steps li{min-height:20vh;text-align:center;align-items:center}
+.steps li{min-height:20vh;text-align:center;align-items:center;transition-duration:.25s}
 }
 h1,h2{text-wrap:balance}p{text-wrap:pretty}
 @media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
@@ -575,7 +575,7 @@ function aim(){const s=+cam.dataset.s,W=420,H=760,pw=phone.offsetWidth,ph=phone.
 const steps=[...document.querySelectorAll('.steps li')];
 function act(t){if(t.classList.contains('on'))return;steps.forEach(l=>l.classList.remove('on'));t.classList.add('on');cam.dataset.s=t.dataset.s;aim()}
 if(matchMedia('(max-width:760px)').matches){
- let q=0;const pick=()=>{q=0;const L=innerHeight*.84;let cur=null;for(const l of steps){const r=l.lastElementChild.getBoundingClientRect();if(r.top+r.height/2<L)cur=l}if(cur)act(cur)};
+ let q=0;const pick=()=>{q=0;const L=innerHeight*.9;let cur=null;for(const l of steps){const r=l.lastElementChild.getBoundingClientRect();if(r.top+r.height/2<L)cur=l}if(cur)act(cur)};
  addEventListener('scroll',()=>{if(!q)q=requestAnimationFrame(pick)},{passive:true});addEventListener('resize',pick);pick()
 }else{
  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)act(e.target)}),{rootMargin:'-50% 0px -40% 0px'});steps.forEach(l=>io.observe(l))}
