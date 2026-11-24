@@ -24,6 +24,12 @@ Rules
 - Requisites `{{OWNER_*}}` are filled once by `bin/legal_site.py` in the app repo.
 - Spec, decisions and history: app repo `docs/legal/README.md`, TASK-20, TASK-22.
 
+Search engines (owner 24.11.2026: one setup for both apps)
+- `docs/robots.txt` lists two sitemaps: `docs/sitemap.xml` (home, léxito, legal — hand-written; add new léxito pages here) and `/verbisto/sitemap.xml` (generated).
+- Home page: JSON-LD Organization `#org` + both apps — to add once the new home page lands.
+- IndexNow key `docs/93833476d0c3446e3902c664fc65b705.txt` sits at the root, so one request may list pages of both apps.
+- Never index `/meticulo/` (redirect stubs) — keep them out of sitemaps.
+
 Local preview: `python3 -m http.server 8766 --bind 127.0.0.1 --directory docs`.
 
 Verbisto
