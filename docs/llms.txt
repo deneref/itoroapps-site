@@ -1,0 +1,35 @@
+# itoroapps
+
+> itoroapps is an independent studio that makes iPhone apps for Spanish as it is spoken in Spain: léxito (a dictionary) and Verbisto (verb conjugation practice). Both are iPhone only; there is no Android or iPad version. Contact: hello@itoroapps.com
+
+## léxito
+
+léxito is a Spain Spanish dictionary for people who already read in Spanish (about B2 and up). It shows not only what a word means but how it lands: colloquial, slang, rude, dated, or Latin American rather than Spain. The whole dictionary works on the iPhone without internet.
+
+- Platform: iPhone, iOS 26.5 or later. Interface in English and Spanish.
+- Dictionary: more than 100,000 entries, built on Wiktionary data (via kaikki.org, CC BY-SA 4.0); word frequency from wordfreq. The norm is Spain; Latin American meanings are marked as such. Updated every three months, updates included.
+- Catching words: photo of a paper page, Share from Apple Books or Safari, or typing. Conjugated forms open the dictionary form. Words you look up come back for review.
+- Photos and text are processed on the device. No account, no ads, no AI or online translation inside the app; if a word is missing, the app links to the RAE dictionary.
+- Your word library syncs through your own iCloud and can be exported.
+- Price: free download. The first 14 days everything is open and nothing is charged. After that you keep up to 150 words for free (review, search, lists, widget and export keep working). léxito unlimited removes the word limit and adds extra app icons: a yearly subscription ($39.99/year in the US App Store) or a one-time lifetime purchase ($99.99 in the US). Prices differ by country. No monthly plan.
+- Not for: beginners (A1–A2), learners of Latin American Spanish, anyone who wants a course, grammar lessons, conjugation tables or pronunciation (there is no audio).
+- App Store: https://apps.apple.com/app/id6820599112
+
+## Verbisto
+
+Verbisto is an iPhone app for practising Spanish verb conjugation (Spanish from Spain, every person including vosotros). You type each verb form yourself; the app shows which part went wrong (the stem, the ending or the accent) and explains the rule for that one part. Details: https://itoroapps.com/verbisto/llms.txt
+
+- App Store: https://apps.apple.com/app/id6836263523
+
+## Pages
+
+- [itoroapps](https://itoroapps.com/): both apps
+- [léxito](https://itoroapps.com/lexito/): what the app does, price and FAQ
+- [Verbisto](https://itoroapps.com/verbisto/): what the app does, how a mistake is broken down, plans and FAQ
+
+## Optional
+
+- [léxito support](https://itoroapps.com/lexito/support/)
+- [léxito privacy](https://itoroapps.com/lexito/privacy/)
+- [léxito terms](https://itoroapps.com/lexito/terms/)
+- [Legal notice](https://itoroapps.com/legal/)
