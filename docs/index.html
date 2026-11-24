@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>itoroapps — independent iPhone apps</title>
-<meta name="description" content="itoroapps publishes léxito and Verbisto — iPhone apps for Spanish as it is spoken in Spain.">
+<meta name="description" content="itoroapps publishes léxito and verbisto — iPhone apps for Spanish as it is spoken in Spain.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="/favicon.png">
 <link rel="canonical" href="https://itoroapps.com/">
@@ -156,22 +156,21 @@ h1 .l:nth-child(2) span{animation-delay:.12s;color:var(--f-muted)}
 .facts{ list-style:none; margin:0 0 32px; padding:0; border-top:1px solid var(--c-rule); }
 .facts li{ padding:12px 0; border-bottom:1px solid var(--c-rule); display:flex; gap:14px; font-size:15px; }
 .facts li::before{ content:var(--c-bullet); color:var(--c-muted); font-family:var(--mono); flex:none; }
-.actions{ margin-top:auto; display:flex; flex-wrap:wrap; align-items:center; gap:4px 20px; }
+.actions{ margin-top:auto; display:flex; flex-wrap:wrap; align-items:center; gap:20px 32px; }
 .visit{ font-weight:600; text-decoration:none; color:var(--c-link);
         border-bottom:2px solid currentColor; padding-bottom:2px; }
 .visit::after{ content:""; position:absolute; inset:0; border-radius:inherit; z-index:1; }
 .visit .arr{ display:inline-block; transition:transform .3s var(--ease); }
 .card:has(.visit:hover) .visit .arr{ transform:translateX(5px); }
-.badge{ position:relative; z-index:2; display:block; padding:12px; margin:-12px 0; border-radius:12px; }
+.badge{ position:relative; z-index:2; display:block; padding:12px; margin:-12px; border-radius:12px; }
 .badge img{ height:48px; width:auto; }
-.ru{ position:relative; z-index:2; font-size:14px; color:var(--c-link); text-underline-offset:3px; }
 
 .field{ position:relative; border-radius:32px; background:var(--c-field); min-height:620px;
         display:flex; flex-direction:column; align-items:center; gap:36px; padding:32px 32px 48px; }
 .field .fcap{ align-self:stretch; margin:0; max-width:24ch; font:400 22px/1.3 var(--c-font); letter-spacing:-.02em;
              color:var(--c-field-ink); }
-.field > img, .field > picture{ margin-block:auto; }
-.phone{ width:min(270px, 64%); filter:drop-shadow(0 40px 50px rgb(0 0 0 / .35)); transform:rotate(-4deg); }
+.shot{ display:block; width:min(270px, 64%); margin-block:auto; }
+.phone{ width:100%; filter:drop-shadow(0 40px 50px rgb(0 0 0 / .35)); }
 
 /* léxito — paper, ink, monospaced, Cartel band */
 .card--lexito{
@@ -187,7 +186,7 @@ h1 .l:nth-child(2) span{animation-delay:.12s;color:var(--f-muted)}
 .tags li.fill{ background:#C5C1E6; border-color:#C5C1E6; color:#2B2A26; }
 .tags-cap{ font-size:12px; color:var(--c-muted); margin:0 0 8px; }
 
-/* Verbisto — pale blue sheet, blue mark, wavy-red mistake */
+/* verbisto — pale blue sheet, blue mark, wavy-red mistake */
 .card--verbisto{
   --c-bg:#F4F8F9; --c-ink:#1C1C1C; --c-muted:#4d5960; --c-rule:#dbe6ea; --c-edge:#e1ebef;
   --c-num:#1F7FAE; --c-link:#12354E; --c-field:#12354E; --c-field-ink:#F4F8F9;
@@ -227,7 +226,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
 .foot .wm i{color:var(--accent)}
 @supports (animation-timeline: view()){
   .card{ animation:settle linear both; animation-timeline:view(); animation-range:entry 0% entry 80%; }
-  .phone{ animation:straighten linear both; animation-timeline:view(); animation-range:entry 0% cover 40%; }
+  .shot{ animation:straighten linear both; animation-timeline:view(); animation-range:entry 0% cover 40%; }
   .card--verbisto .err{ animation:mark linear both; animation-timeline:view(); animation-range:entry 60% cover 40%; }
   @keyframes settle{ from{ opacity:.4; scale:.94; } }
   @keyframes straighten{
@@ -264,7 +263,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
   .card{ grid-template-columns:1fr; padding:24px 20px 20px; border-radius:30px; gap:28px; }
   .field{ min-height:0; padding:24px 20px 36px; border-radius:22px; gap:28px; }
   .field .fcap{ font-size:18px; }
-  .phone{ width:min(240px, 70%); }
+  .shot{ width:min(240px, 70%); }
   .foot{ grid-template-columns:1fr; gap:28px; }
 }
 @media (max-width: 520px){
@@ -286,7 +285,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
 <header class="hero">
   <nav class="nav" aria-label="Apps">
     <a href="/lexito/"><sup>1</sup>léxito</a>
-    <a href="/verbisto/"><sup>2</sup>Verbisto</a>
+    <a href="/verbisto/"><sup>2</sup>verbisto</a>
     <a href="#apps">Apps ↓</a>
   </nav>
 
@@ -301,14 +300,14 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
       <span class="cap lx-cap"><b><sup>1</sup> léxito <span class="go" aria-hidden="true">→</span></b>Spanish words from what you read.</span>
     </a>
 
-    <!-- App 2: Verbisto -->
-    <a class="g" href="/verbisto/" aria-label="Verbisto — Spanish verb practice. Open the app page.">
+    <!-- App 2: verbisto -->
+    <a class="g" href="/verbisto/" aria-label="verbisto — Spanish verb practice. Open the app page.">
       <span class="o glow vb-glow" aria-hidden="true"></span>
-      <span class="o ph vfar vb-vfar"><img src="/img/verbisto-razbor-dark.webp" width="760" height="1554" alt="Verbisto on iPhone, dark theme: “empecasteis” — the stem is off."></span>
-      <span class="o ph far vb-far"><img src="/img/verbisto-type.webp" width="760" height="1554" alt="Verbisto on iPhone: typing “hablaréis” letter by letter."></span>
-      <span class="o ph vb-near"><img src="/img/verbisto-razbor.webp" width="760" height="1554" alt="Verbisto on iPhone: “empecasteis” with the wrong stem marked — “The stem is off.”"></span>
-      <span class="o ic mid vb-ic"><img src="/img/verbisto-icon.webp" width="384" height="384" alt="Verbisto app icon"></span>
-      <span class="cap vb-cap"><b><sup>2</sup> Verbisto <span class="go" aria-hidden="true">→</span></b>Spanish verb practice.</span>
+      <span class="o ph vfar vb-vfar"><img src="/img/verbisto-razbor-dark.webp" width="760" height="1554" alt="verbisto on iPhone, dark theme: “empecasteis” — the stem is off."></span>
+      <span class="o ph far vb-far"><img src="/img/verbisto-type.webp" width="760" height="1554" alt="verbisto on iPhone: typing “hablaréis” letter by letter."></span>
+      <span class="o ph vb-near"><img src="/img/verbisto-razbor.webp" width="760" height="1554" alt="verbisto on iPhone: “empecasteis” with the wrong stem marked — “The stem is off.”"></span>
+      <span class="o ic mid vb-ic"><img src="/img/verbisto-icon.webp" width="384" height="384" alt="verbisto app icon"></span>
+      <span class="cap vb-cap"><b><sup>2</sup> verbisto <span class="go" aria-hidden="true">→</span></b>Spanish verb practice.</span>
     </a>
   </div>
 
@@ -346,7 +345,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
       </div>
       <div class="field">
         <p class="fcap">Carro? In Madrid, say coche.</p>
-        <img class="phone" src="/lexito/img/carro.webp" width="760" height="1554" alt="léxito on iPhone: the word card for carro, marked Latin American, with coche as the neutral word">
+        <picture class="shot"><img class="phone" src="/lexito/img/carro.webp" width="760" height="1554" alt="léxito on iPhone: the word card for carro, marked Latin American, with coche as the neutral word"></picture>
       </div>
     </article>
 
@@ -354,8 +353,8 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
       <div class="card__text">
         <div class="card__head"><span class="num">02</span><span class="kicker">Spanish verb practice</span></div>
         <div class="card__title">
-          <img class="icon" src="/img/verbisto-icon.webp" width="384" height="384" alt="Verbisto app icon">
-          <h2 id="verbisto-h">Verbisto</h2>
+          <img class="icon" src="/img/verbisto-icon.webp" width="384" height="384" alt="verbisto app icon">
+          <h2 id="verbisto-h">verbisto</h2>
         </div>
         <p class="lede">See exactly what went wrong.</p>
         <div class="mistake" lang="es">
@@ -369,16 +368,15 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
           <li>Indefinido and Perfecto are free forever.</li>
         </ul>
         <div class="actions">
-          <a class="visit" href="/verbisto/" aria-label="Visit the Verbisto app page">Visit the app page <span class="arr" aria-hidden="true">→</span></a>
-          <a class="badge" href="https://apps.apple.com/app/apple-store/id6836263523?pt=129550662&amp;ct=site-hub&amp;mt=8"><img src="/lexito/img/app-store-badge-black.svg" width="120" height="40" alt="Download Verbisto on the App Store"></a>
-          <a class="ru" href="/verbisto/ru/" lang="ru" hreflang="ru">Русский</a>
+          <a class="visit" href="/verbisto/" aria-label="Visit the verbisto app page">Visit the app page <span class="arr" aria-hidden="true">→</span></a>
+          <a class="badge" href="https://apps.apple.com/app/apple-store/id6836263523?pt=129550662&amp;ct=site-hub&amp;mt=8"><img src="/lexito/img/app-store-badge-black.svg" width="120" height="40" alt="Download verbisto on the App Store"></a>
         </div>
       </div>
       <div class="field">
         <p class="fcap">The app shows which part is wrong — the stem, the ending or the accent.</p>
-        <picture>
+        <picture class="shot">
           <source srcset="/img/verbisto-razbor-dark.webp" media="(prefers-color-scheme: dark)">
-          <img class="phone" src="/img/verbisto-razbor.webp" width="760" height="1554" alt="Verbisto on iPhone: empecasteis with the c marked, “The stem is off.” and the rule for that spot">
+          <img class="phone" src="/img/verbisto-razbor.webp" width="760" height="1554" alt="verbisto on iPhone: empecasteis with the c marked, “The stem is off.” and the rule for that spot">
         </picture>
       </div>
     </article>
@@ -396,7 +394,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
         <h3>Support</h3>
         <ul>
           <li><span class="muted">léxito —</span> <a href="mailto:lexito@itoroapps.com">lexito@itoroapps.com</a></li>
-          <li><span class="muted">Verbisto —</span> <a href="mailto:verbisto@itoroapps.com">verbisto@itoroapps.com</a></li>
+          <li><span class="muted">verbisto —</span> <a href="mailto:verbisto@itoroapps.com">verbisto@itoroapps.com</a></li>
         </ul>
       </div>
       <div>
