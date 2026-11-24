@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://itoroapps.com/verbisto/sitemap.xml
