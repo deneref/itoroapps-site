@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://itoroapps.com/verbisto/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/"/>
+  </url>
+  <url>
+    <loc>https://itoroapps.com/verbisto/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/"/>
+  </url>
+  <url>
+    <loc>https://itoroapps.com/verbisto/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/privacy/"/>
+  </url>
+  <url>
+    <loc>https://itoroapps.com/verbisto/ru/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/privacy/"/>
+  </url>
+  <url>
+    <loc>https://itoroapps.com/verbisto/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/support/"/>
+  </url>
+  <url>
+    <loc>https://itoroapps.com/verbisto/ru/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/support/"/>
+  </url>
+</urlset>

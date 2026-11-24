@@ -1,0 +1,22 @@
+# Verbisto
+
+> Verbisto is an iPhone app for practising Spanish verb conjugation (Spanish from Spain, every person including vosotros). You type each verb form yourself; the app shows which part went wrong (the stem, the ending or the accent) and explains the rule for that one part. Explanations are in English and Russian.
+
+- Platform: iPhone, iOS 26 or later. Works offline; a connection is needed only for purchases.
+- Tenses: Pretérito Indefinido, Pretérito Imperfecto, Pretérito Perfecto, Pretérito Pluscuamperfecto, Futuro Simple.
+- Price: free download. Indefinido and Perfecto are free forever. The full version is a yearly subscription (first 7 days free), a monthly subscription, or a one-time Lifetime purchase (shareable via Family Sharing).
+- Answers are always typed. Forms you get wrong come back for review.
+- Usage taught is that of Spain (perfecto for "today" / "this week"); vosotros is included.
+- App Store: https://apps.apple.com/app/id6836263523
+
+## Pages
+
+- [Verbisto (English)](https://itoroapps.com/verbisto/): what the app does, how a mistake is broken down, plans and FAQ
+- [Verbisto (Русский)](https://itoroapps.com/verbisto/ru/): the same page in Russian
+
+## Optional
+
+- [Support](https://itoroapps.com/verbisto/support/)
+- [Privacy Policy](https://itoroapps.com/verbisto/privacy/)
+- [Поддержка](https://itoroapps.com/verbisto/ru/support/)
+- [Политика конфиденциальности](https://itoroapps.com/verbisto/ru/privacy/)

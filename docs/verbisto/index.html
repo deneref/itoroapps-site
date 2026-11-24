@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verbisto — Spanish verb practice for iPhone</title>
+<meta name="description" content="You type each verb form yourself, and the app shows you exactly where it went wrong: the stem, the ending or the accent. Then it explains the rule for that one spot. Spanish from Spain, on iPhone, with explanations in English and Russian.">
+<link rel="canonical" href="https://itoroapps.com/verbisto/">
+<link rel="alternate" hreflang="en" href="https://itoroapps.com/verbisto/">
+<link rel="alternate" hreflang="ru" href="https://itoroapps.com/verbisto/ru/">
+<link rel="alternate" hreflang="x-default" href="https://itoroapps.com/verbisto/">
+<link rel="icon" type="image/png" sizes="96x96" href="/verbisto/img/icon-96.png">
+<link rel="apple-touch-icon" href="/verbisto/img/ikonka-120.png">
+<link rel="preload" href="/verbisto/fonts/Manrope.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="describedby" type="text/markdown" href="/verbisto/llms.txt">
+<meta name="apple-itunes-app" content="app-id=6836263523">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Verbisto">
+<meta property="og:url" content="https://itoroapps.com/verbisto/">
+<meta property="og:title" content="Verbisto — Spanish verb practice for iPhone">
+<meta property="og:description" content="You type each verb form yourself, and the app shows you exactly where it went wrong: the stem, the ending or the accent. Then it explains the rule for that one spot. Spanish from Spain, on iPhone, with explanations in English and Russian.">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:image" content="https://itoroapps.com/verbisto/img/og-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Verbisto: the app shows where a Spanish verb form went wrong">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Verbisto — Spanish verb practice for iPhone">
+<meta name="twitter:description" content="You type each verb form yourself, and the app shows you exactly where it went wrong: the stem, the ending or the accent. Then it explains the rule for that one spot. Spanish from Spain, on iPhone, with explanations in English and Russian.">
+<meta name="twitter:image" content="https://itoroapps.com/verbisto/img/og-en.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MobileApplication", "name": "Verbisto", "operatingSystem": "iOS 26", "applicationCategory": "EducationalApplication", "inLanguage": ["en", "ru"], "description": "You type each verb form yourself, and the app shows you exactly where it went wrong: the stem, the ending or the accent. Then it explains the rule for that one spot. Spanish from Spain, on iPhone, with explanations in English and Russian.", "url": "https://itoroapps.com/verbisto/", "sameAs": "https://apps.apple.com/app/id6836263523", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Can I practise for free first?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, in two ways. Indefinido and Perfecto are free forever: no subscription, every person, full mistake breakdowns. The other tenses come with the full version. On the yearly plan the first 7 days are free, and we’ll remind you 2 days before you pay. If you decide not to carry on, cancel before those 7 days are up: iPhone Settings → your name → Subscriptions. The monthly plan has no free days."}}, {"@type": "Question", "name": "How is a subscription different from Lifetime?", "acceptedAnswer": {"@type": "Answer", "text": "A subscription renews on its own until you cancel it, and you can’t share it with your family. Lifetime is a one-time purchase, and you can share it with your family through Family Sharing."}}, {"@type": "Question", "name": "How do I cancel my subscription?", "acceptedAnswer": {"@type": "Answer", "text": "Any time: iPhone Settings → your name → Subscriptions."}}, {"@type": "Question", "name": "What happens to my progress if my subscription ends?", "acceptedAnswer": {"@type": "Answer", "text": "All of it stays on your iPhone. The paid tenses close for practice. Indefinido and Perfecto stay open. Subscribe again and you pick up right where you left off."}}, {"@type": "Question", "name": "Will it work if I’m learning Latin American Spanish?", "acceptedAnswer": {"@type": "Answer", "text": "Mostly. The forms in these tenses are the same there, with two differences. Vosotros isn’t used: people say ustedes instead. And for ‘today’ or ‘this week’ Latin America tends to use the indefinido, while the app teaches the usage of Spain: the perfecto."}}, {"@type": "Question", "name": "Which tenses does it cover?", "acceptedAnswer": {"@type": "Answer", "text": "Pretérito Indefinido, Pretérito Imperfecto, Pretérito Perfecto, Pretérito Pluscuamperfecto and Futuro Simple. Indefinido and Perfecto are free forever; the rest come with the full version."}}, {"@type": "Question", "name": "What language are the explanations in?", "acceptedAnswer": {"@type": "Answer", "text": "English and Russian. Where English and Russian speakers go wrong in different ways, the explanations are written separately: through English tenses for English speakers, through verb aspect for Russian speakers."}}, {"@type": "Question", "name": "How do I type accents?", "acceptedAnswer": {"@type": "Answer", "text": "As soon as you type a vowel, the app shows a row of accented vowels: tap the one you need. Or do it the usual way and hold the vowel down on the iPhone keyboard."}}, {"@type": "Question", "name": "Do I need an internet connection?", "acceptedAnswer": {"@type": "Answer", "text": "Not for practice: it works offline. You need a connection to make a purchase, and to send your answers if you’ve turned on “Help improve the app” yourself."}}, {"@type": "Question", "name": "Which iPhone do I need?", "acceptedAnswer": {"@type": "Answer", "text": "Any iPhone running iOS 26 or later."}}]}]}</script>
+<style>
+@font-face{font-family:Manrope;src:url(/verbisto/fonts/Manrope.woff2) format("woff2");font-weight:200 800;font-display:swap}
+:root{--bg:#FCFDFE;--sheet:#F4F8F9;--raised:#FFFFFF;--ink:#1C1C1C;--muted:#646464;--line:#D5DEE2;--nest:#D6E7F0;--nestInk:#12354E;--mark:#1F7FAE;--miss:#A83D1B;--missBg:#FFF1EE;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#0D1A24;--sheet:#132B3D;--raised:#173349;--ink:#F5F5F5;--muted:#A1A1A1;--line:#26394A;--nest:rgba(255,255,255,.06);--nestInk:#A5C8D1;--mark:#5EC3EA;--miss:#FF9E80;--missBg:#2D1D1B}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Manrope,system-ui,sans-serif}
+a{color:inherit}
+.page{max-width:752px;margin:0 auto;padding:24px 16px 40px}
+header,footer{display:flex;justify-content:space-between;gap:12px;font-size:14px;color:var(--muted)}
+header b{color:var(--ink);font-weight:700}
+section{margin-top:clamp(72px,10vw,120px)}
+.m{color:var(--mark)}
+.miss{color:var(--miss);text-decoration:underline wavy var(--miss);text-decoration-thickness:2px;text-underline-offset:.18em}
+.verdict{display:inline-block;background:var(--missBg);color:var(--miss);font-size:14px;font-weight:600;border-radius:8px;padding:3px 10px;margin:0}
+.cap{font-size:13px;font-weight:600;color:var(--muted);margin:0 0 8px}
+
+.intro{text-align:center;margin-top:64px}
+.nw{white-space:nowrap}
+.kicker{font-size:16px;color:var(--ink);margin:0 0 12px}
+h1{font-size:clamp(34px,6.4vw,56px);font-weight:700;letter-spacing:-.025em;line-height:1.06;margin:0 0 28px}
+.badge{display:inline-block;padding:11px;margin:-11px;line-height:0}
+.badge img{height:44px;width:auto}
+.pay{font-size:15px;color:var(--muted);margin:14px 0 0}
+.pay b{font-weight:600;color:var(--ink)}
+
+.sheet{margin-top:48px;background:var(--sheet);border-radius:24px;padding:clamp(24px,5vw,48px)}
+.ask{font-size:15px;color:var(--muted);margin:0}
+.ask b{color:var(--ink);font-weight:600}
+.typed{font-size:clamp(44px,10vw,88px);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin:8px 0 24px}
+.typed .miss{text-decoration-thickness:3px;text-underline-offset:12px}
+.caret{display:inline-block;width:.06em;height:.82em;background:var(--mark);vertical-align:-.06em;margin-left:.04em;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.caret{animation:none}}
+.fix{background:var(--raised);border-radius:16px;padding:20px 22px}
+.fix .row{margin:12px 0 0;font-size:clamp(32px,6vw,44px);font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.pt{display:inline-flex;flex-direction:column}
+.pt small{font-size:13px;font-weight:500;letter-spacing:0;color:var(--muted);margin-top:6px}
+.st{color:var(--muted);font-weight:500}
+
+.tact{border-top:1px solid var(--line);padding-top:32px}
+.tact h2{font-size:clamp(32px,5vw,40px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0 0 6px}
+.tact .lead{color:var(--ink);margin:0 0 28px;max-width:60ch}
+
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:760px){.cards{grid-template-columns:1fr}}
+.card{background:var(--sheet);border-radius:16px;padding:20px}
+.card .t{font-size:26px;font-weight:600;color:var(--muted);margin:16px 0 2px}
+.card .t .miss{color:var(--muted)}
+.card .r{font-size:26px;font-weight:700;margin:0 0 10px}
+.card .n{font-size:14px;color:var(--muted);margin:0}
+
+.rule{background:var(--nest);color:var(--nestInk);border-radius:12px;padding:14px 18px;font-size:clamp(20px,3.4vw,26px);font-weight:600;margin:0}
+.rule .m{font-weight:700}
+.ruletext{font-size:17px;color:var(--ink);margin:12px 0 24px;max-width:60ch}
+.samples{display:flex;gap:28px;flex-wrap:wrap;font-size:24px;font-weight:700;margin:0}
+
+.lang2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:760px){.lang2{grid-template-columns:1fr}}
+.lang2 figure{margin:0;background:var(--sheet);border-radius:16px;padding:20px 22px}
+.lang2 figcaption{font-size:13px;font-weight:600;color:var(--muted);margin-bottom:10px}
+.lang2 blockquote{margin:0;font-size:17px;line-height:1.55}
+.lang2 .h{display:block;font-size:22px;font-weight:700;margin-bottom:6px}
+.lang2 b{font-weight:700;color:var(--mark)}
+.ret{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:start}
+@media (max-width:760px){.ret{grid-template-columns:1fr}}
+table{border-collapse:collapse;width:100%;font-size:19px}
+caption{text-align:left;font-size:13px;font-weight:600;color:var(--muted);padding-bottom:8px}
+th{text-align:left;font-weight:400;color:var(--muted);font-size:15px;padding:8px 0;width:48%}
+td{font-weight:600;padding:8px 0}
+tr{border-top:1px solid var(--line)}
+tr.me{background:var(--nest)} tr.me th,tr.me td{color:var(--nestInk)} tr.me th{padding-left:10px}
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{background:var(--nest);color:var(--nestInk);border-radius:9px;padding:6px 12px;font-weight:600}
+.ret p{margin:0 0 20px}
+
+.shot{display:grid;grid-template-columns:300px minmax(0,1fr);gap:40px;align-items:center}
+@media (max-width:760px){.shot{grid-template-columns:1fr;justify-items:center;text-align:center}}
+.shot picture img{display:block;width:300px;max-width:80vw;height:auto}
+.shot h2{font-size:clamp(28px,4vw,32px);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:0 0 10px}
+.shot p{margin:0;color:var(--ink);max-width:36ch}
+.faq details{border-top:1px solid var(--line);padding:16px 0}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;font-size:19px;font-weight:600}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--muted);font-weight:400;transition:transform .3s ease}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details::details-content{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .35s ease,opacity .35s ease,content-visibility .35s allow-discrete}
+.faq details[open]::details-content{grid-template-rows:1fr;opacity:1}
+.faq details p{min-height:0;overflow:hidden}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.faq details::details-content,.faq summary::after{transition:none}}
+.faq p{margin:0;color:var(--muted);max-width:60ch}
+.faq p::before{content:"";display:block;height:8px}
+.faq h2{font-size:clamp(28px,4vw,32px);font-weight:800;letter-spacing:-.02em;margin:0 0 16px}
+
+.end{text-align:center}
+.end p{font-size:clamp(24px,4vw,30px);font-weight:700;letter-spacing:-.015em;margin:0 0 24px}
+footer{margin-top:80px;padding-top:16px;border-top:1px solid var(--line);flex-direction:column;gap:6px}
+footer .links{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;align-items:center}
+footer .ig{display:inline-flex;align-items:center;gap:15px;margin:9px 0;color:inherit;text-decoration:none}footer .ig svg{flex:none;display:block;width:29px;height:29px}footer .ig:hover{color:var(--ink)}
+footer small{font-size:12px}
+.subhead{font-size:clamp(18px,2.2vw,20px);line-height:1.5;color:var(--ink);max-width:60ch;margin:-12px auto 28px}
+.note{font-size:15px;margin:20px 0 0;max-width:62ch}
+.fit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px}
+@media (max-width:760px){.fit{grid-template-columns:1fr;gap:20px}}
+.fit p{margin:0}
+.fit .no p:last-child{color:var(--muted)}
+.end p.pay{margin:14px 0 0;font-size:15px;font-weight:400;letter-spacing:0}
+.intro h1{margin-bottom:0}
+.intro + .sheet{margin-top:24px}
+.intro.after{margin-top:24px}
+.intro.after .subhead{margin:0 auto 24px}
+.fix .row{display:flex;flex-wrap:wrap;align-items:flex-start;column-gap:.35em;row-gap:4px}
+.fix .op{color:var(--muted);font-weight:500}
+.fix .res{white-space:nowrap}
+@media (prefers-reduced-motion:no-preference){
+.typed > span:not(.caret){animation:in .01s calc(var(--i)*90ms + 300ms) both}
+.typed .miss{animation:in .01s 750ms both,wave .35s 1.3s both}
+.caret{animation:blink 1.1s steps(1) 1.1s 3}
+.fix{animation:up .35s ease 1.8s both}
+}
+@keyframes in{from{display:none}}
+@keyframes wave{from{color:var(--ink);text-decoration-color:transparent}}
+@keyframes up{from{opacity:0;transform:translateY(8px)}}
+.story{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:56px;align-items:start}
+.stage{grid-column:2;grid-row:1;position:sticky;top:max(0px,calc(50vh - 380px))}
+.steps{grid-column:1;grid-row:1;list-style:none;margin:0;padding:0}
+.steps li{min-height:70vh;display:flex;flex-direction:column;justify-content:center;opacity:.25;transition:opacity .5s ease}
+.steps li:first-child{min-height:60vh}
+.steps li.on{opacity:1}
+.steps h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0 0 12px}
+.steps p{margin:0;font-size:clamp(24px,3.2vw,32px);font-weight:700;letter-spacing:-.015em;line-height:1.2;max-width:16ch}
+.cam{position:relative;width:420px;height:613px;overflow:hidden;border-radius:44px}
+.cam img{display:block;width:300px;height:auto;margin:0 auto;transform-origin:50% 0;transition:transform .9s cubic-bezier(.3,.7,.1,1)}
+.cam[data-s="1"] img{transform:translateY(calc(306px - 613px*.40*1.5)) scale(1.5)}
+.cam[data-s="2"] img{transform:translateY(calc(306px - 613px*.535*1.5)) scale(1.5)}
+.cam[data-s="3"] img{transform:translateY(calc(306px - 613px*.62*1.5)) scale(1.5)}
+.cam{transition:border-radius .9s,box-shadow .9s}
+.cam:not([data-s="0"]):not([data-s="4"]){border-radius:28px;box-shadow:0 0 0 1px var(--line),0 24px 60px rgba(31,110,160,.14);background:var(--raised)}
+@media (max-width:760px){
+.story{grid-template-columns:1fr;gap:0}
+.stage{grid-column:1;top:8px;z-index:1;justify-self:center;padding-bottom:8px}
+.stage::before{content:"";position:absolute;inset:-56px -50vw -48px;z-index:-1;pointer-events:none;background:linear-gradient(transparent,var(--bg) 48px,var(--bg) calc(100% - 56px),transparent)}
+.cam{transform:scale(.8);transform-origin:50% 0;margin:0 -42px calc(613px*-.2)}
+.steps{grid-row:2}
+.steps li{min-height:55vh;text-align:center;align-items:center}
+}
+h1,h2{text-wrap:balance}p{text-wrap:pretty}
+@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
+.stage{animation:flat linear both;animation-timeline:view();animation-range:entry 0% cover 30%}
+@keyframes flat{from{opacity:.3;transform:perspective(1000px) rotateX(24deg) rotateZ(-3deg) translateY(60px) scale(.92)}}
+}}
+@media (prefers-reduced-motion:reduce){.cam img,.cam,.steps li{transition:opacity .4s}}
+[hidden]{display:none!important}
+html,body{overflow-x:clip}
+.nav{display:flex;justify-content:space-between;align-items:center;margin:20px 0 0}
+.dots{display:flex;gap:6px}.dots i{width:6px;height:6px;border-radius:50%;background:var(--line);transition:background-color .3s,transform .3s}
+.js .sheet{cursor:pointer}
+.sheet.s0 .dots i:nth-child(1),.sheet.s1 .dots i:nth-child(-n+2),.sheet.s2 .dots i{background:var(--mark)}
+.next{font:600 15px/1 Manrope,system-ui,sans-serif;color:var(--nestInk);background:var(--nest);border:0;border-radius:999px;padding:10px 16px;cursor:pointer;transition:transform .15s}
+.next:active{transform:scale(.95)}
+.sheet.ready .next{animation:nudge 1.6s ease 2}
+@keyframes nudge{50%{transform:translateX(4px)}}
+.sheet .fix{transition:opacity .45s ease,transform .45s ease}
+.sheet.s0 .fix,.sheet.s1 .fix{opacity:0;transform:translateY(10px)}
+.sheet.s0 .typed .miss{color:inherit;text-decoration-color:transparent}
+.typed .miss{transition:text-decoration-color .35s,color .35s}
+.typed.out{opacity:0;transition:opacity .3s}
+@media (prefers-reduced-motion:no-preference){
+.js .card .ch{opacity:0}
+.js .card.in .ch{opacity:1;transition:opacity 0s calc(var(--d) + var(--i)*75ms)}
+.js .card .t .miss{text-decoration-color:transparent;transition:text-decoration-color .4s calc(var(--d) + .9s)}
+.js .card.in .t .miss{text-decoration-color:var(--miss)}
+.js .card .r{opacity:0;transform:translateY(8px);transition:opacity .5s calc(var(--d) + 1.3s),transform .5s calc(var(--d) + 1.3s)}
+.js .card.in .r{opacity:1;transform:none}
+.rule .p{display:inline-block}
+.js .rule .p{opacity:0;transition:opacity .5s,transform .6s cubic-bezier(.3,.7,.1,1)}
+.js .rule .p1{transform:translateX(-24px)} .js .rule .p2{transform:translateX(24px);transition-delay:.25s} .js .rule .p3{transform:scale(.94);transition-delay:.7s}
+.js .rule.in .p{opacity:1;transform:none}
+.samples .m{display:inline-block}
+.js .samples .m{opacity:0;transform:translateY(-.5em);transition:opacity .4s,transform .5s cubic-bezier(.3,.7,.1,1)}
+.js .samples span:nth-child(2) .m{transition-delay:.25s}
+.js .samples.in .m{opacity:1;transform:none}
+.js .lang2 figure{opacity:0;transition:opacity .6s,transform .7s cubic-bezier(.3,.7,.1,1)}
+.js .lang2 figure:first-child{transform:translateX(-28px)} .js .lang2 figure:last-child{transform:translateX(28px)}
+.js .lang2.in figure{opacity:1;transform:none}
+.lang2 b{background:linear-gradient(var(--nest),var(--nest)) 0 100%/0 100% no-repeat;-webkit-box-decoration-break:clone;box-decoration-break:clone;transition:background-size .9s ease .8s}
+.js .lang2.in b{background-size:100% 100%}
+.js .lang2.in figure:last-child b{transition-delay:1.4s}
+tr.me td{transition:color .4s}
+.fit{position:relative}
+.fit::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--line);transform:scaleY(0);transform-origin:50% 0;transition:transform .9s ease}
+.fit.in::before{transform:none}
+@media (max-width:760px){.fit::before{display:none}}
+}
+.end .vo{color:var(--mark)}
+.track{position:relative;width:max-content}
+.q{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.q li{width:124px;height:34px;line-height:22px;text-align:center;border-radius:9px;padding:6px 0;font-weight:600;background:var(--sheet);color:var(--muted)}
+.q li.err{background:var(--missBg);color:var(--ink)}
+.q li.back{background:var(--nest);color:var(--nestInk)}
+.track svg{position:absolute;left:128px;top:0;width:80px;height:202px;overflow:visible;fill:none;stroke:var(--mark);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.end .ask{margin:0 0 4px;font-size:15px;font-weight:400;letter-spacing:0}
+.end .fin{font-size:clamp(56px,14vw,128px);font-weight:700;letter-spacing:-.035em;line-height:1.15;margin:0 auto 36px;width:max-content;max-width:100%;border-bottom:1px solid var(--line);clip-path:inset(-60% -10% 0 -10%)}
+.fin .l{display:inline-block}
+.fin .tail{color:var(--mark)}
+.fin .acc{display:inline-grid}
+.fin .acc > *{grid-area:1/1}
+.fin .e0{visibility:hidden}
+@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
+.tact{will-change:transform,opacity;animation:rise linear both,sink linear forwards;animation-timeline:view(),view();animation-range:entry 0% entry 55vh,exit 55% exit 100%}
+@keyframes rise{from{opacity:0;transform:translateY(110px) scale(.93)}}
+@keyframes sink{to{opacity:.35;transform:scale(.96)}}
+.tact h2{background:linear-gradient(90deg,var(--ink) 50%,var(--line) 50%) 100% 0/200% 100% no-repeat;padding-block:.15em;margin-block:-.15em calc(6px - .15em);-webkit-background-clip:text;background-clip:text;color:transparent;animation:ink linear both;animation-timeline:view();animation-range:entry 25vh entry 70vh}
+@keyframes ink{to{background-position:0 0}}
+.arc{stroke-dasharray:1;animation:draw linear both;animation-timeline:--belt;animation-range:cover 25% cover 52%}
+.head{animation:show linear both;animation-timeline:--belt;animation-range:cover 50% cover 54%}
+.belt{view-timeline:--belt}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes show{from{opacity:0}}
+.q li.back{animation:lit linear both;animation-timeline:--belt;animation-range:cover 50% cover 56%}
+@keyframes lit{from{background:var(--sheet);color:var(--muted)}}
+}}
+:root{--glint:#2E9BD0;--glintA:.36}
+@media (prefers-color-scheme:dark){:root{--glint:#5EC3EA;--glintA:.44}}
+.page{position:relative}
+.glints{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden}
+.glint{position:absolute;display:block}
+.glints .glint{left:0;top:0;will-change:transform,opacity;transform-origin:50% 50%}
+.glints .glint i{display:block;width:100%;height:100%;background:var(--blob) 0 0/100% 100% no-repeat;will-change:transform}
+.glint.g3{display:block;border-radius:50%;background:radial-gradient(closest-side,var(--glint),transparent)}
+.g1{width:640px;height:470px}
+.g2{width:740px;height:520px}
+.end{position:relative}
+.js:not(.still) .g3{display:none!important}
+.g3{position:absolute!important;width:min(720px,110vw);height:360px;left:50%;top:10px;translate:-50% 0;opacity:0;z-index:-1;transition:opacity 1.6s ease 1.9s}
+.end.in .g3{opacity:calc(var(--glintA)*.8)}
+@media (prefers-reduced-motion:no-preference){
+.g1 i{animation:br1 23s ease-in-out infinite alternate}
+.g2 i{animation:br2 29s ease-in-out infinite alternate}
+}
+@keyframes br1{from{transform:rotate(-9deg) scale(.88,1.1)}to{transform:rotate(11deg) scale(1.12,.9)}}
+@keyframes br2{from{transform:rotate(8deg) scale(1.1,.88)}to{transform:rotate(-12deg) scale(.9,1.12)}}
+.sheet{position:relative;background:color-mix(in srgb,var(--sheet) 90%,transparent)}
+.typed .miss{position:relative}.js .typed .miss{text-decoration:none}
+.typed .miss .wv{position:absolute;left:-.02em;bottom:.03em;width:calc(100% + .04em);height:.2em;overflow:hidden;clip-path:inset(0 0 0 0);transition:clip-path .6s cubic-bezier(.3,.7,.1,1)}
+.typed .miss .wv svg{position:absolute;left:0;top:0;width:24.36em;height:.2em;overflow:visible;fill:none;stroke:var(--miss);stroke-linecap:round}
+.sheet.s0 .typed .miss .wv{clip-path:inset(0 100% 0 0);transition:none}
+@media (prefers-reduced-motion:no-preference){.sheet:not(.s0) .typed .miss .wv svg{animation:flow 1.6s linear 3}}
+@keyframes flow{to{transform:translateX(-.36em)}}
+.typed{transition:opacity .3s,transform .44s cubic-bezier(.3,.7,.1,1)}
+.typed.out{opacity:0;transform:translateX(-64px);transition:opacity .3s,transform .36s cubic-bezier(.5,0,.8,.4)}
+.typed.inr{opacity:0;transform:translateX(64px);transition:none}
+.dots i{transition:width .3s,background-color .3s}
+.dots i.run{width:22px;border-radius:3px;background:var(--line)!important;position:relative;overflow:hidden}
+.dots i.run::after{content:"";position:absolute;inset:0;background:var(--mark);transform-origin:0 50%;animation:fill var(--t,3s) linear forwards}
+.sheet.paused .dots i.run::after{animation-play-state:paused}
+@keyframes fill{from{transform:scaleX(0)}}
+.typer{pointer-events:none;-webkit-user-select:none;user-select:none;margin:0 0 28px;display:flex;justify-content:center}
+.phone.vv{position:relative;left:auto;top:auto;transform:none;transition:none}
+.screen.vscr{container-type:inline-size;background:url(/verbisto/img/vvod-en-k0-3x.webp) 0 0/100% 100%}
+html:not(.js) .screen.vscr{background-image:url(/verbisto/img/vvod-en-k2-3x.webp)}html:not(.js) .vscr>span{display:none}
+.vscr>span{position:absolute;display:block}
+.vmask{left:12.44%;top:34.33%;width:75.46%;height:4.2%;background:#FCFEFE;opacity:0}
+.vclr{left:79.19%;top:34.78%;width:7.05%;height:3.2%;background:url(/verbisto/img/vvod-krestik-3x.webp) 0 0/100% 100%;opacity:0}
+.vscr>.vval{left:13.0%;top:34.74%;height:3.17%;display:flex;align-items:center;white-space:pre;color:#000;
+ font:400 var(--vfs,5.14cqw)/1 system-ui,-apple-system,"SF Pro Text",sans-serif;letter-spacing:var(--vls,0)}
+.vt{transform:translateY(var(--vdy,.4cqw))}
+.vcar{flex:none;width:.5cqw;height:100%;background:#12354E;margin-left:.04cqw;border-radius:.2cqw}
+.vchips{left:4.15%;top:52.17%;width:50.58%;height:7.17%;opacity:0}
+.vchip{position:absolute;top:52.17%;height:6.18%;width:12.02%;background-image:url(/verbisto/img/vvod-fishki-3x.webp);background-size:420.7% 116.05%;
+ opacity:0;transform:scale(.6);transition:opacity .16s,transform .32s cubic-bezier(.3,1.6,.5,1)}
+.vchip.on{opacity:1;transform:none}
+.vchip.e{background-image:url(/verbisto/img/vvod-fishki-e-3x.webp);transition:opacity .12s,transform .18s}
+.vchip.dn{transform:scale(.9)}
+.vbtn{left:35.16%;top:59.04%;width:61.03%;height:5.95%;background:url(/verbisto/img/vvod-en-check-3x.webp) 0 0/100% 100%;opacity:0;transition:opacity .1s}
+.vscr.typing .vmask,.vscr.typing .vclr,.vscr.typing .vbtn{opacity:1}
+@media (prefers-reduced-motion:no-preference){.vcar{animation:blink 1.1s steps(1) infinite}.vscr.typing .vcar{animation:none}}
+@media (max-width:760px){.phone.vv{width:248px}}
+.cap.three{margin:0 0 12px}
+:root{--shot:url(/verbisto/img/razbor-en-light.webp)}
+@media (prefers-color-scheme:dark){:root{--shot:url(/verbisto/img/razbor-en-dark.webp)}}
+.cam{width:420px;height:760px;border-radius:0;overflow:hidden;-webkit-mask:linear-gradient(transparent,#000 4%,#000 96%,transparent);mask:linear-gradient(transparent,#000 4%,#000 96%,transparent)}
+.phone{position:absolute;left:0;top:0;width:310px;transform-origin:0 0;transition:transform 1.1s cubic-bezier(.3,.7,.1,1)}
+.screen{position:relative;border-radius:13%/6%;overflow:hidden;aspect-ratio:1206/2622;background:var(--shot) 0 0/100% 100%}
+.screen::after{content:"";position:absolute;inset:0;background:var(--bg);opacity:0;transition:opacity .6s}
+.cam:not([data-s="0"]):not([data-s="4"]) .screen::after{opacity:.55}
+.lift{position:absolute;z-index:1;border-radius:10px;background-image:var(--shot);opacity:0;transform:scale(1);box-shadow:0 0 0 rgba(31,110,160,0);
+ transition:opacity .5s,transform .7s cubic-bezier(.3,1.3,.5,1),box-shadow .7s}
+.lift.on{opacity:1;transform:scale(1.07);box-shadow:0 14px 34px rgba(31,110,160,.22),0 0 0 1px rgba(31,110,160,.06)}
+.cam:not([data-s="0"]):not([data-s="4"]){border-radius:0;box-shadow:none;background:none}
+@media (max-width:760px){
+.cam{transform:scale(.8);transform-origin:50% 0;margin:0 -42px calc(760px*-.2)}
+}
+@media (prefers-reduced-motion:reduce){.phone,.lift{transition:opacity .3s}}
+
+@keyframes ring{20%{rotate:16deg}40%{rotate:-12deg}60%{rotate:7deg}80%{rotate:-3deg}}
+.fin .tail .l:first-child .acc{text-decoration:none}
+@media (prefers-reduced-motion:no-preference){
+.js .end{--p:1}
+.js .end .fin .l{transform:translateY(calc(105% * (1 - clamp(0, (var(--p) - .02 - var(--i) * .045) / .28, 1))))}
+.js .end .fin .e0{visibility:visible;opacity:clamp(0, (.8 - var(--p)) * 1000, 1)}
+.js .end .fin .tick{--t:clamp(0, (var(--p) - .6) / .18, 1);opacity:clamp(0, var(--t) * 4, 1);transform:translateY(calc(-.6em * (1 - var(--t))));clip-path:inset(-50% 0 calc(var(--cut, 60%) * clamp(0, (.8 - var(--p)) * 1000, 1)) 0)}
+.js .end .fin .tail{color:color-mix(in oklch, var(--mark) calc(clamp(0, (var(--p) - .82) / .05, 1) * 100%), var(--miss))}
+.js .end .fin .acc{background:linear-gradient(var(--miss),var(--miss)) 0 92%/calc(100% * clamp(0, (var(--p) - .4) * 20, 1) * clamp(0, (.8 - var(--p)) * 20, 1)) 3px no-repeat}
+}
+@keyframes settle{40%{scale:1.03}}
+#plans{--sky:#EAF4FA;--leafLine:#C9DCE6;--shade:rgba(31,110,160,.32);--deep:#12354E;--hdrInk:#fff}
+@media (prefers-color-scheme:dark){#plans{--sky:#16384F;--leafLine:#2A4A62;--shade:rgba(0,0,0,.45);--deep:#0B2233;--hdrInk:#0B2233}}
+#plans .wide{position:relative;left:50%;translate:-50% 0;width:min(1132px,calc(100vw - 32px))}
+#plans h2{text-align:center;font-size:clamp(38px,6.4vw,84px);letter-spacing:-.04em;line-height:1;margin:-.15em auto;max-width:14ch}
+#plans h2 em{font-style:normal;color:var(--mark)}
+#plans .sub{text-align:center;font-size:clamp(17px,1.6vw,20px);color:var(--muted);margin:20px auto 40px;max-width:60ch;text-wrap:balance}
+#plans .note{text-align:center;font-size:14px;color:var(--muted);margin:32px auto 0}
+#plans .ic{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.trio{display:grid;grid-template-columns:1fr 1.3fr 1fr;align-items:end}
+.it{position:relative;text-align:center;border-radius:28px;padding:96px 32px 40px}
+.it.side{background:var(--sheet);box-shadow:0 0 0 1px var(--line);min-height:300px;display:flex;flex-direction:column;justify-content:flex-end}
+.it.side:first-child{border-radius:28px 0 0 28px;margin-right:-1px}.it.side:last-child{border-radius:0 28px 28px 0;margin-left:-1px}
+.it.main{z-index:1;padding:352px 40px 44px;background:linear-gradient(180deg,var(--sky),var(--raised) 58%);
+ box-shadow:0 0 0 1.5px color-mix(in srgb,var(--mark) 35%,transparent),0 40px 80px -30px rgba(31,127,174,.5)}
+.it h3{margin:0;font-size:30px;font-weight:800;letter-spacing:-.02em}
+.it.main h3{font-size:52px;letter-spacing:-.035em;color:var(--nestInk)}
+.it p{margin:8px auto 0;max-width:24ch;color:var(--muted);font-size:16px;line-height:1.55}
+.it.main p{color:var(--ink);font-size:19px;max-width:24ch;margin:10px auto 28px;text-wrap:balance}
+.it.main p b{color:var(--mark)}
+.obj{position:absolute;left:50%;translate:-50% 0}
+.obj::after{content:"";position:absolute;left:12%;right:12%;bottom:-22px;height:16px;border-radius:50%;background:var(--shade);filter:blur(10px);z-index:-1}
+.it.side .obj{top:-68px;width:128px;height:128px;display:grid;place-items:center}
+.pad{top:30px;width:260px;height:290px}
+.pad::after{left:8%;right:8%;bottom:-10px}
+.lf{position:absolute;left:20px;bottom:0;width:220px;height:212px;border-radius:20px;background:var(--raised);
+ box-shadow:0 0 0 1px var(--leafLine),0 10px 24px -8px var(--shade);overflow:hidden;text-align:center}
+.lf i{display:flex;align-items:center;gap:7px;font-style:normal;font-size:13px;font-weight:700;letter-spacing:.06em;line-height:1.4;color:var(--hdrInk);background:var(--mark);padding:9px 16px;justify-content:center;white-space:nowrap}
+.lf i svg{flex:none;width:15px;height:15px;transform-origin:50% 15%}
+.lf b{display:block;font-size:96px;font-weight:800;letter-spacing:-.04em;line-height:1.05;color:var(--nestInk)}
+.lf span{display:block;font-size:14px;color:var(--muted);margin-top:-2px}
+.l8 i,.l6 i{justify-content:flex-start}
+.l8 i{background:var(--deep);color:#fff}
+.l8{transform:translateY(-76px) rotate(2deg)}
+.l6{transform:translateY(-38px) rotate(-1deg)}
+.l1{transform:rotate(-2.5deg)}
+.leaf1{width:108px;height:120px;border-radius:16px;background:var(--raised);box-shadow:0 0 0 1px var(--leafLine),0 10px 22px -10px var(--shade);overflow:hidden;text-align:center;transform:rotate(-4deg)}
+.leaf1 i{display:block;font-style:normal;font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--nestInk);background:var(--nest);padding:6px 0;line-height:1.4}
+.leaf1 b{display:block;font-size:50px;font-weight:800;line-height:1.3;color:var(--muted)}
+.it.side .leaf1{display:block;width:108px;height:120px;place-items:normal}.leaf1>*{width:100%}
+.it.side .key::after{bottom:4px}
+.key svg{width:112px;height:112px;transform:rotate(-8deg)}
+@media (prefers-reduced-motion:no-preference){
+ .js .l6,.js .l8{transition:transform .9s cubic-bezier(.2,1.25,.4,1)}
+ .js .l6{transition-delay:.25s}.js .l8{transition-delay:.45s}
+ .js .trio:not(.in) .l6,.js .trio:not(.in) .l8{transform:translateY(0) rotate(-2.5deg)}
+ .js .l1{transition:transform .6s cubic-bezier(.3,1.4,.5,1)}
+ .js .trio:not(.in) .l1{transform:translateY(8px) rotate(-2.5deg)}
+ .js .trio.in .l6 svg{animation:ring .9s ease 1.05s}
+ .js .it.side .obj{transition:translate .8s cubic-bezier(.2,1.2,.4,1) .7s,opacity .5s .7s}
+ .js .trio:not(.in) .it.side .obj{translate:-50% -24px;opacity:0}
+}
+@media (max-width:760px){
+ .trio{grid-template-columns:1fr;gap:16px}
+ .it,.it.side:first-child,.it.side:last-child{border-radius:24px;margin:0}
+ .it.main{order:-1;padding:316px 22px 32px}.pad{top:16px;scale:.92}.it.main h3{font-size:44px}
+ .it.side{min-height:0;display:grid;grid-template-columns:84px 1fr;text-align:left;align-items:center;gap:4px 16px;padding:20px}
+ .it.side .obj{position:relative;left:auto;top:auto;translate:none;grid-row:1/span 2;width:84px;height:84px}
+ .js .trio:not(.in) .it.side .obj{translate:0 -12px}
+ .it.side h3{font-size:22px;align-self:end}.it.side p{margin:0;align-self:start;font-size:15px}
+ .it.side .leaf1{width:62px;height:70px}.it.side .key::after{bottom:-4px}
+ .leaf1{border-radius:10px}.leaf1 i{font-size:7px;padding:3px 0}.leaf1 b{font-size:28px}
+ .key svg{width:68px;height:68px}
+ .obj::after{bottom:-8px;height:10px}
+}
+.phone::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:url(/verbisto/img/ramka-iphone17-mist-blue.webp) 0 0/100% 100% no-repeat;filter:drop-shadow(0 18px 22px rgba(31,110,160,.18))}
+.phone{aspect-ratio:1350/2760}
+.phone>.screen{position:absolute;left:5.333%;top:2.5%;width:89.333%;height:95%;aspect-ratio:auto}
+@media (max-width:360px){.cam{transform:scale(.68);margin:0 -67px calc(760px*-.32)}.fix .row{font-size:26px}}
+</style>
+
+</head>
+<body><div class="page">
+<header><b>Verbisto</b><span><a href="/verbisto/ru/" lang="ru" hreflang="ru">RU</a> · EN</span></header>
+<main>
+<div class="glints" aria-hidden="true"><span class="glint g1"><i></i></span><span class="glint g2"><i></i></span></div>
+<div class="intro">
+<p class="kicker">Spanish verb practice for iPhone · <span class="nw">Spanish from Spain</span></p>
+<h1>Where’s the mistake?</h1>
+</div>
+
+<div class="sheet" aria-label="Example: the answer is missing an accent, and the app shows where it goes">
+<p class="ask"><b lang="es">comer</b> · <span lang="es">Futuro Simple&nbsp;·&nbsp;vosotros</span></p>
+<p class="typed" lang="es" aria-label="Typed answer: comereis"><span style="--i:0">c</span><span style="--i:1">o</span><span style="--i:2">m</span><span style="--i:3">e</span><span style="--i:4">r</span><span class="miss" style="--i:5">e</span><span style="--i:6">i</span><span style="--i:7">s</span><span class="caret" aria-hidden="true"></span></p>
+<div class="fix">
+<p class="verdict">The accent is missing.</p>
+<p class="row" lang="es"><span class="pt"><span class="st">comer</span><small lang="en">Infinitive</small></span><span class="op">+</span><span class="pt"><span class="m">éis</span><small lang="en">Ending</small></span><span class="res"><span class="op">→</span> comer<span class="m">éis</span></span></p>
+</div>
+<div class="nav"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><button type="button" class="next" hidden>Show <span aria-hidden="true">→</span></button></div>
+</div>
+
+<div class="intro after">
+<p class="subhead">The app shows you which part of the form is wrong, and explains the rule.</p>
+<a class="badge" href="https://apps.apple.com/app/apple-store/id6836263523?pt=129550662&amp;ct=site-en-hero&amp;mt=8"><img src="/verbisto/badges/app-store-en-us.svg" alt="Download on the App Store" width="132" height="44"></a>
+<p class="pay">No need to pay up front: Indefinido and Perfecto are free forever, and on the yearly plan the full version is free for the first 7&nbsp;days.</p>
+</div>
+
+<section class="tact">
+<h2>You type it.</h2>
+<p class="lead">No options to pick from: you type the whole verb, letter by letter.</p>
+<div class="typer" role="img" aria-label="Practice screen on iPhone: HABLAR, vosotros, Futuro Simple. hablareis is being typed into the field; below the card is a row of the vowels typed so far: a, a, e, i. Tapping “e” adds the accent: hablaréis.">
+<div class="phone vv"><div class="screen vscr">
+<span class="vmask"></span><span class="vclr"></span><span class="vval" lang="es"><span class="vt"></span><span class="vcar"></span></span>
+<span class="vchips"></span><span class="vchips e"></span><span class="vbtn"></span>
+</div></div>
+</div>
+<p class="cap three">There are three places to go wrong. The app tells you which one.</p>
+<div class="cards">
+<div class="card"><p class="verdict">The stem is off.</p><p class="t" lang="es"><span class="miss">ten</span>isteis</p><p class="r" lang="es"><span class="m">tuv</span>isteis</p><p class="n" lang="es">tener · Indefinido</p></div>
+<div class="card"><p class="verdict">The ending is off.</p><p class="t" lang="es">habl<span class="miss">astes</span></p><p class="r" lang="es">habl<span class="m">asteis</span></p><p class="n" lang="es">hablar · Indefinido</p></div>
+<div class="card"><p class="verdict">No accent here.</p><p class="t" lang="es">estudi<span class="miss">á</span>steis</p><p class="r" lang="es">estudi<span class="m">a</span>steis</p><p class="n" lang="es">estudiar · Indefinido</p></div>
+</div>
+</section>
+
+<section class="tact">
+<h2>The app breaks it down.</h2>
+<p class="lead">Not a lecture on the whole tense. One rule, about the mistake you made, plus two examples.</p>
+<p class="rule" lang="es"><span class="p p1">comer</span> <span class="p p2">+ <span class="m">-éis</span></span> <span class="p p3">→ comer<span class="m">éis</span></span></p>
+<p class="ruletext">In the futuro the accent goes only on the ending, in every person except nosotros: the stress falls on the last syllable. In -emos it falls on the one before, so there’s no accent.</p>
+<p class="cap">Compare · tú</p>
+<p class="samples" lang="es"><span>hablar<span class="m">ás</span></span><span>vivir<span class="m">ás</span></span></p>
+</section>
+
+<section class="story" aria-label="The breakdown screen in the app">
+<div class="stage"><div class="cam" data-s="0"><div class="phone"><div class="screen" role="img" aria-label="Breakdown screen on iPhone. Task: empezar, vosotros, Indefinido. Typed: empecasteis. Below the answer: the stem is marked as wrong, then the rule and the examples buscaste, tocaste."><span class="lift" data-r="1"></span><span class="lift" data-r="2"></span><span class="lift" data-r="3"></span></div></div></div></div>
+<ol class="steps">
+<li data-s="0"><h2>See where, and why.</h2><p>You typed <span lang="es">empecasteis</span>.</p></li>
+<li data-s="1"><p>The app marks the stem,</p></li>
+<li data-s="2"><p>explains the rule</p></li>
+<li data-s="3"><p>and shows forms that are built the same way.</p></li>
+<li data-s="4"><p>No points. No telling-off.</p></li>
+</ol>
+</section>
+
+
+<section class="tact">
+<h2>In your language.</h2>
+<p class="lead">Russian and English speakers trip up in different places, and where they do, the explanations are written separately. Here’s one topic, explained two ways.</p>
+<div class="lang2">
+<figure><figcaption>For Russian speakers</figcaption><blockquote><span class="h" lang="es">Imperfecto</span><span lang="es">Ayer jugamos</span> — ‘we played yesterday’, and in Russian the verb is perfective: it happened and it’s over, so it’s the indefinido. <b>An imperfective verb doesn’t always mean the imperfecto</b>: ‘I lived in Madrid for two years’ is imperfective in Russian, but the period is closed, so it’s the indefinido: <span lang="es">viví dos años en Madrid</span>.</blockquote></figure>
+<figure lang="en"><figcaption lang="en">For English speakers</figcaption><blockquote><span class="h" lang="es">Imperfecto</span><b>English ‘played’ covers both</b>: ‘we played yesterday’ is one finished event — <span lang="es">ayer jugamos</span>, the indefinido. Where English could say ‘used to’ or ‘was ...ing’, Spanish usually takes the imperfecto — and for descriptions too: ‘the house was big’ — <span lang="es">la casa era grande</span>.</blockquote></figure>
+</div>
+</section>
+
+<section class="tact">
+<h2>The hard ones come back.</h2>
+<p class="lead">A form you get wrong comes back a few tasks later. The app tracks each form on its own: verb, tense, person.</p>
+<div class="ret">
+<table lang="es"><caption lang="en">hablar · Futuro Simple</caption>
+<tr><th>yo</th><td>hablar<span class="m">é</span></td></tr>
+<tr><th>tú</th><td>hablar<span class="m">ás</span></td></tr>
+<tr><th>él, ella, usted</th><td>hablar<span class="m">á</span></td></tr>
+<tr><th>nosotros</th><td>hablar<span class="m">emos</span></td></tr>
+<tr class="me"><th>vosotros</th><td>hablar<span class="m">éis</span></td></tr>
+<tr><th>ellos, ustedes</th><td>hablar<span class="m">án</span></td></tr>
+</table>
+<div>
+<p>You practise every person. Vosotros isn’t skipped here: it has its own endings in every tense.</p>
+<p class="cap">Back for review</p>
+<div class="belt"><div class="track" lang="es"><ol class="q"><li class="err">hablar<span class="miss">e</span>is</li><li>fuisteis</li><li>dijisteis</li><li>teníais</li><li class="back">hablar<span class="m">é</span>is</li></ol><svg viewBox="0 0 80 202" aria-hidden="true"><path class="arc" pathLength="1" d="M4 17 C72 17 72 185 10 185"/><path class="head" d="M18 178 L9 185 L18 192"/></svg></div></div>
+</div>
+</div>
+</section>
+
+<section class="tact" id="plans"><div class="wide">
+<h2><em>Practise</em> first. Pay&nbsp;later.</h2>
+<p class="sub">No need to pay up front: on the yearly plan, the first week is free.</p>
+<div class="trio">
+ <div class="it side"><div class="obj leaf1" aria-hidden="true"><i>MONTH</i><b>1</b></div><h3>Monthly</h3><p>Pay each month. No free days.</p></div>
+ <div class="it main">
+  <div class="obj pad" role="img" aria-label="Today is day 1 of 7 free days. On day 6 we’ll remind you. Day 8 is the first payment.">
+   <div class="lf l8"><i><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>DAY 8 · PAYMENT</i></div>
+   <div class="lf l6"><i><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a5.5 5.5 0 0 0-5.5 5.5v3.5L4.5 16h15l-2-3.5V9A5.5 5.5 0 0 0 12 3.5zM9.8 18.5a2.2 2.2 0 0 0 4.4 0"/></svg>DAY 6 · REMINDER</i></div>
+   <div class="lf l1"><i>TODAY</i><b>1</b><span>of 7 free days</span></div>
+  </div>
+  <h3>Yearly</h3><p>The first week is <b>free</b>, full version included. Then one payment a year.</p>
+  <a class="badge" href="https://apps.apple.com/app/apple-store/id6836263523?pt=129550662&amp;ct=site-en-plans&amp;mt=8"><img src="/verbisto/badges/app-store-en-us.svg" alt="Download on the App Store" width="132" height="44"></a></div>
+ <div class="it side"><div class="obj key" aria-hidden="true"><svg viewBox="0 0 64 64"><defs><linearGradient id="kg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A9D8EE"/><stop offset=".55" stop-color="#5FA6CC"/><stop offset="1" stop-color="#2E6F94"/></linearGradient></defs><circle cx="22" cy="24" r="14" fill="url(#kg)"/><circle cx="22" cy="24" r="5.5" fill="var(--sheet)"/><path d="M31 33l22 22M44 46l5-5M49 51l4-4" stroke="url(#kg)" stroke-width="6.5" stroke-linecap="round"/><circle cx="17" cy="18" r="3" fill="#fff" opacity=".45"/></svg></div><h3>Lifetime</h3><p>Pay once, no subscription. Share it with your family through Family Sharing.</p></div>
+</div>
+<p class="note">Prices are in the App Store, in your currency. Your progress stays on your iPhone: switching plans won’t erase it.</p>
+</div></section>
+
+<section class="tact">
+<h2>Is it for you?</h2>
+<div class="fit">
+<div><p class="cap">It’s for you if</p><p>You know what the Indefinido and the Imperfecto are, but the forms still trip you up. You’re learning the Spanish spoken in Spain. You’d rather type the forms yourself than pick them from a list.</p></div>
+<div class="no"><p class="cap">It’s not for you if</p><p>You’re just starting Spanish. You want speaking practice or new vocabulary. You use Android.</p></div>
+</div>
+</section>
+
+<section class="faq">
+<h2>Questions</h2>
+<details><summary>Can I practise for free first?</summary><p>Yes, in two ways. Indefinido and Perfecto are free forever: no subscription, every person, full mistake breakdowns. The other tenses come with the full version. On the yearly plan the first 7&nbsp;days are free, and we’ll remind you 2&nbsp;days before you pay. If you decide not to carry on, cancel before those 7&nbsp;days are up: iPhone Settings → your name → Subscriptions. The monthly plan has no free days.</p></details>
+<details><summary>How is a subscription different from Lifetime?</summary><p>A subscription renews on its own until you cancel it, and you can’t share it with your family. Lifetime is a one-time purchase, and you can share it with your family through Family Sharing.</p></details>
+<details><summary>How do I cancel my subscription?</summary><p>Any time: iPhone Settings → your name → Subscriptions.</p></details>
+<details><summary>What happens to my progress if my subscription ends?</summary><p>All of it stays on your iPhone. The paid tenses close for practice. Indefinido and Perfecto stay open. Subscribe again and you pick up right where you left off.</p></details>
+<details><summary>Will it work if I’m learning Latin American Spanish?</summary><p>Mostly. The forms in these tenses are the same there, with two differences. Vosotros isn’t used: people say ustedes instead. And for ‘today’ or ‘this week’ Latin America tends to use the indefinido, while the app teaches the usage of Spain: the perfecto.</p></details>
+<details><summary>Which tenses does it cover?</summary><p><span lang="es">Pretérito Indefinido, Pretérito Imperfecto, Pretérito Perfecto, Pretérito Pluscuamperfecto</span> and <span lang="es">Futuro Simple</span>. Indefinido and Perfecto are free forever; the rest come with the full version.</p></details>
+<details><summary>What language are the explanations in?</summary><p>English and Russian. Where English and Russian speakers go wrong in different ways, the explanations are written separately: through English tenses for English speakers, through verb aspect for Russian speakers.</p></details>
+<details><summary>How do I type accents?</summary><p>As soon as you type a vowel, the app shows a row of accented vowels: tap the one you need. Or do it the usual way and hold the vowel down on the iPhone keyboard.</p></details>
+<details><summary>Do I need an internet connection?</summary><p>Not for practice: it works offline. You need a connection to make a purchase, and to send your answers if you’ve turned on “Help improve the app” yourself.</p></details>
+<details><summary>Which iPhone do I need?</summary><p>Any iPhone running iOS 26 or later.</p></details>
+</section>
+
+<section class="end"><span class="glint g3" aria-hidden="true"></span>
+<p class="ask"><b lang="es">comer</b> · <span lang="es">Futuro Simple&nbsp;·&nbsp;vosotros</span></p>
+<p class="fin" lang="es" aria-label="comeréis"><span class="l" style="--i:0">c</span><span class="l" style="--i:1">o</span><span class="l" style="--i:2">m</span><span class="l" style="--i:3">e</span><span class="l" style="--i:4">r</span><span class="tail"><span class="l" style="--i:5"><span class="acc"><span class="e0" aria-hidden="true">e</span><span class="tick">é</span></span></span><span class="l" style="--i:6">i</span><span class="l" style="--i:7">s</span></span></p>
+<p>Learning the Spanish spoken in Spain? Here you practise <span class="vo" lang="es">vosotros</span> just like every other person.</p>
+<a class="badge" href="https://apps.apple.com/app/apple-store/id6836263523?pt=129550662&amp;ct=site-en-end&amp;mt=8"><img src="/verbisto/badges/app-store-en-us.svg" alt="Download on the App Store" width="132" height="44"></a>
+<p class="pay">Indefinido and Perfecto are free forever. The full version: yearly (first 7&nbsp;days free), monthly, or a one-time Lifetime purchase.</p>
+</section>
+</main>
+<footer>
+<div class="links"><span><a href="/verbisto/privacy/">Privacy</a>&nbsp;· <a href="/verbisto/support/">Support</a>&nbsp;· <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms</a>&nbsp;· <a href="/legal/">Legal notice</a></span></div>
+<small>Apple, the Apple logo and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.</small>
+</footer>
+</div><script>
+const cam=document.querySelector('.cam'),phone=cam.querySelector('.phone'),lifts=[...cam.querySelectorAll('.lift')];
+const R={1:[.04,.33,.96,.46],2:[.04,.475,.96,.595],3:[.04,.615,.96,.745]};
+lifts.forEach(l=>{const r=R[l.dataset.r],w=r[2]-r[0],h=r[3]-r[1];Object.assign(l.style,{left:r[0]*100+'%',top:r[1]*100+'%',width:w*100+'%',height:h*100+'%',
+ backgroundSize:100/w+'% '+100/h+'%',backgroundPosition:r[0]/(1-w)*100+'% '+r[1]/(1-h)*100+'%'})});
+function aim(){const s=+cam.dataset.s,W=420,H=760,pw=phone.offsetWidth,ph=phone.offsetHeight,r=R[s];
+ lifts.forEach(l=>l.classList.toggle('on',+l.dataset.r===s));
+ if(!r){phone.style.transform=`translate(${(W-pw)/2}px,${(H-ph)/2}px)`;return}
+ const k=1.38,cy=ph*(69+(r[1]+r[3])/2*2622)/2760;phone.style.transform=`translate(${(W-k*pw)/2}px,${H/2-k*cy}px) scale(${k})`}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
+ document.querySelectorAll('.steps li.on').forEach(l=>l.classList.remove('on'));
+ e.target.classList.add('on');cam.dataset.s=e.target.dataset.s;aim()}),{rootMargin:matchMedia('(max-width:760px)').matches?'-70% 0px -20% 0px':'-50% 0px -40% 0px'});
+document.querySelectorAll('.steps li').forEach(l=>io.observe(l));aim();
+</script>
+<script>
+document.documentElement.classList.add('js');
+const still=matchMedia('(prefers-reduced-motion:reduce)').matches;if(still)document.documentElement.classList.add('still');
+function letters(el){let i=0;const walk=n=>[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();[...c.textContent].forEach(ch=>{const s=document.createElement('span');s.className='ch';s.textContent=ch;s.style.setProperty('--i',i++);f.append(s)});c.replaceWith(f)}else walk(c)});walk(el)}
+document.querySelectorAll('.card .t').forEach((t,k)=>{letters(t);t.closest('.card').style.setProperty('--d',k*.5+'s')});
+const seen=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");seen.unobserve(e.target)}}),{rootMargin:'0px 0px -15% 0px'});
+document.querySelectorAll('.card,.rule,.samples,.lang2,.trio,.fit,.end').forEach(el=>seen.observe(el));
+(()=>{
+const S=document.querySelector('.sheet'),ask=S.querySelector('.ask'),typed=S.querySelector('.typed'),fix=S.querySelector('.fix'),nx=S.querySelector('.next'),dots=[...S.querySelectorAll('.dots i')];
+const LBL=['Show','Why?','Another one'],T=[1800,2800,6000];
+const ex=[{ask:ask.innerHTML,w:'comereis',m:[5,6],fix:fix.innerHTML},
+ {ask:'<b lang="es">tener</b> · <span lang="es">Pretérito Indefinido&nbsp;·&nbsp;vosotros</span>',w:'tenisteis',m:[0,3],
+  fix:'<p class="verdict">The stem is off.</p><p class="row" lang="es"><span class="pt"><span class="m">tuv</span><small lang="en">Stem</small></span><span class="op">+</span><span class="pt"><span>isteis</span><small lang="en">Ending</small></span><span class="res"><span class="op">→</span> <span class="m">tuv</span>isteis</span></p>'},
+ {ask:'<b lang="es">hablar</b> · <span lang="es">Pretérito Indefinido&nbsp;·&nbsp;vosotros</span>',w:'hablastes',m:[4,9],
+  fix:'<p class="verdict">The ending is off.</p><p class="row" lang="es"><span class="pt"><span class="st">habl</span><small lang="en">Stem</small></span><span class="op">+</span><span class="pt"><span class="m">asteis</span><small lang="en">Ending</small></span><span class="res"><span class="op">→</span> habl<span class="m">asteis</span></span></p>'}];
+const WAVE=(()=>{const L=36,H=20,A=5;let d=`M0 ${H/2}`;for(let n=0;n*L/2<2400+L;n++)d+=` Q${n*L/2+L/4} ${n%2?H/2+A:H/2-A} ${(n+1)*L/2} ${H/2}`;
+ return `<svg viewBox="0 0 ${2400+L} ${H}" preserveAspectRatio="xMinYMid meet" aria-hidden="true"><path d="${d}" stroke-width="5"/></svg>`})();
+function addWave(m){if(!m)return;const v=document.createElement('span');v.className='wv';v.innerHTML=WAVE;m.append(v)}
+const wait=ms=>new Promise(r=>setTimeout(r,ms));let run=0,k=0,step=0,tm=0,left=0,t0=0,armed=false,hold=new Set();
+const label=()=>{nx.firstChild.textContent=LBL[step]+' '};
+const set=n=>{step=n;S.classList.remove('s0','s1','s2','ready');S.classList.add('s'+n);label();
+ dots.forEach((d,i)=>{d.classList.remove('run');d.style.background=i<n?'var(--mark)':''})};
+function arm(ms){clearTimeout(tm);armed=false;if(still||(step===2&&k===ex.length-1))return;
+ left=ms;armed=true;
+ const d=dots[step];d.classList.remove('run');void d.offsetWidth;S.style.setProperty('--t',ms+'ms');d.classList.add('run');tick()}
+function tick(){clearTimeout(tm);if(!armed)return;if(hold.size){S.classList.add('paused');return}
+ S.classList.remove('paused');t0=Date.now();tm=setTimeout(go,left)}
+function pause(why){if(armed&&!hold.size&&!S.classList.contains('paused')){clearTimeout(tm);left=Math.max(300,left-(Date.now()-t0))}hold.add(why);tick()}
+function resume(why){hold.delete(why);tick()}
+function go(){armed=false;if(step<2){set(step+1);arm(T[step])}else{k=(k+1)%ex.length;show(k)}}
+async function show(i){
+ const me=++run,e=ex[i];clearTimeout(tm);armed=false;set(0);
+ const html=e.w.slice(0,e.m[0])+'<span class="miss">'+e.w.slice(e.m[0],e.m[1])+'</span>'+e.w.slice(e.m[1]);
+ if(still){ask.innerHTML=e.ask;fix.innerHTML=e.fix;typed.innerHTML=html;typed.setAttribute('aria-label',e.w);addWave(typed.querySelector('.miss'));return}
+ if(me>1){typed.classList.add('out');await wait(460);if(me!==run)return;typed.classList.remove('out');typed.classList.add('inr');void typed.offsetWidth}
+ ask.innerHTML=e.ask;fix.innerHTML=e.fix;typed.setAttribute('aria-label',e.w);
+ typed.innerHTML='<span class="caret" aria-hidden="true"></span>';typed.classList.remove('inr');const caret=typed.firstChild;
+ await wait(300);let ms=null;
+ for(let j=0;j<e.w.length;j++){if(me!==run)return;
+  if(j>=e.m[0]&&j<e.m[1]){if(!ms){ms=document.createElement('span');ms.className='miss';ms.style.animation='none';caret.before(ms)}ms.append(e.w[j])}
+  else{const c=document.createElement('span');c.textContent=e.w[j];c.style.animation='none';caret.before(c)}
+  await wait(90)}
+ if(me!==run)return;addWave(ms);if(step===0){S.classList.add('ready');arm(T[0])}
+}
+fix.style.animation='none';nx.hidden=false;show(0);
+S.addEventListener('click',ev=>{if(ev.target.closest('a'))return;if(step===0&&!S.classList.contains('ready')&&!still)return;go()});
+S.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')pause('hover')});S.addEventListener('pointerleave',()=>resume('hover'));
+S.addEventListener('focusin',()=>pause('focus'));S.addEventListener('focusout',()=>resume('focus'));
+new IntersectionObserver(([e])=>e.isIntersecting?resume('off'):pause('off')).observe(S);
+document.addEventListener('visibilitychange',()=>document.hidden?pause('tab'):resume('tab'));
+})();
+(()=>{
+const scr=document.querySelector('.vscr');if(!scr)return;const t=scr.querySelector('.vt');
+const OFF=[5,155,305,455];
+const chips=OFF.map(o=>{const c=document.createElement('span');c.className='vchip';Object.assign(c.style,{left:(50+o)/1206*100+'%',backgroundPosition:o/(610-145)*100+'% 0'});scr.append(c);return c});
+const ce=document.createElement('span');ce.className='vchip e';Object.assign(ce.style,{left:(50+OFF[2])/1206*100+'%',backgroundPosition:OFF[2]/(610-145)*100+'% 0'});scr.append(ce);
+const W='hablareis',V='aeiou',wait=ms=>new Promise(r=>setTimeout(r,ms));let on=false,busy=false;
+const fin=()=>{scr.classList.add('typing');t.textContent='hablaréis';chips.forEach(c=>c.classList.add('on'));ce.classList.add('on')};
+if(still){fin();return}
+async function loop(){if(busy)return;busy=true;
+ while(on){chips.forEach(c=>c.classList.remove('on','dn'));ce.classList.remove('on');await wait(180);scr.classList.remove('typing');t.textContent='';await wait(720);
+  let n=0;for(const ch of W){if(!on)break;scr.classList.add('typing');t.textContent+=ch;if(V.includes(ch))chips[n++].classList.add('on');
+   await wait(V.includes(ch)?260:190)}
+  if(!on)break;await wait(800);chips[2].classList.add('dn');await wait(140);ce.classList.add('on');chips[2].classList.remove('dn');
+  t.textContent='hablaréis';await wait(3600)}
+ busy=false}
+new IntersectionObserver(([e])=>{on=e.isIntersecting;if(on)loop()},{threshold:.4}).observe(scr);
+})();
+</script>
+<script>
+(()=>{
+const G=[...document.querySelectorAll('.glints .glint')],page=document.querySelector('.page'),end=document.querySelector('.end'),fin=end.querySelector('.fin'),tick=fin.querySelector('.tick');
+const ease=t=>t*t*(3-2*t),lerp=(a,b,t)=>a+(b-a)*t,cl=v=>Math.min(1,Math.max(0,v));
+const cr=(P,t)=>{const n=P.length-1,f=Math.min(n-1e-6,t*n),i=Math.floor(f),u=f-i,p0=P[Math.max(0,i-1)],p1=P[i],p2=P[i+1],p3=P[Math.min(n,i+2)];
+ return [0,1].map(k=>.5*((2*p1[k])+(-p0[k]+p2[k])*u+(2*p0[k]-5*p1[k]+4*p2[k]-p3[k])*u*u+(-p0[k]+3*p1[k]-3*p2[k]+p3[k])*u*u*u))};
+function blob(color,seed){const c=document.createElement('canvas');c.width=320;c.height=240;const x=c.getContext('2d');
+ const R=[[.5,.5,.46,1],[.5+.12*Math.cos(seed),.5+.1*Math.sin(seed),.32,.7],[.5-.13*Math.sin(seed*1.7),.5+.11*Math.cos(seed*1.3),.3,.6]];
+ x.setTransform(320/240,0,0,1,0,0);
+ R.forEach(([cx,cy,r,a])=>{const g=x.createRadialGradient(cx*240,cy*240,0,cx*240,cy*240,r*240);g.addColorStop(0,color);g.addColorStop(1,color+'00');
+  x.globalAlpha=a;x.fillStyle=g;x.fillRect(0,0,240,240)});
+ return 'url('+c.toDataURL('image/png')+')'}
+function paint(){const cs=getComputedStyle(document.documentElement);
+ G[0].style.setProperty('--blob',blob(cs.getPropertyValue('--glint').trim(),1.1));G[1].style.setProperty('--blob',blob(cs.getPropertyValue('--mark').trim(),2.6))}
+let L,anims=[];
+function pose(i,p){const g=L.g[i],e=ease(p),[x,y]=cr(g.P,p);
+ const sx=lerp(1,g.ez[0],e),sy=lerp(1,g.ez[1],e),rot=Math.sin(Math.PI*p)*18*(i?-1:1);
+ return [x-g.w/2,y-g.h/2,sx,sy,rot,lerp(g.o[0],g.o[1],e)*L.ga*(i?.7:1)]}
+const T=q=>`translate3d(${q[0].toFixed(1)}px,${q[1].toFixed(1)}px,0) rotate(${q[4].toFixed(2)}deg) scale(${q[2].toFixed(3)},${q[3].toFixed(3)})`;
+function place(p){G.forEach((el,i)=>{const q=pose(i,p);el.style.transform=T(q);el.style.opacity=q[5].toFixed(3)})}
+function layout(){const W=innerWidth,H=innerHeight,pr=page.getBoundingClientRect(),max=Math.max(1,document.documentElement.scrollHeight-H);
+ const er=end.getBoundingClientRect(),ey=er.top+scrollY-max+190,ew=Math.min(720,W*1.1);
+ const fr=fin.getBoundingClientRect(),fs=fr.top+scrollY-H;
+ L={W,H,max,fs,ga:parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--glintA')),g:[
+  {w:640,h:470,P:[[pr.right-100,355],[.3*W,.4*H],[.66*W,.58*H],[.42*W,.36*H],[W/2,ey]],ez:[ew/640,360/470],o:[1,.5]},
+  {w:740,h:520,P:[[pr.left+70,820],[.72*W,.3*H],[.34*W,.64*H],[.6*W,.5*H],[W/2,ey+14]],ez:[ew/740,360/520],o:[1,.45]}]};
+ const m=document.createElement('i');m.style.cssText='display:inline-block;width:0;height:0';tick.append(m);
+ const c=document.createElement('canvas').getContext('2d'),cs=getComputedStyle(tick);c.font=cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;
+ const xh=c.measureText('x').actualBoundingBoxAscent,tr=tick.getBoundingClientRect(),base=m.getBoundingClientRect().top;m.remove();
+ tick.style.setProperty('--cut',((tr.bottom-(base-xh-parseFloat(cs.fontSize)*.04))/tr.height*100).toFixed(1)+'%');
+ drive(true)}
+const target=()=>still?0:cl(scrollY/L.max);
+function drive(re){
+ if(!still&&'ScrollTimeline' in window){if(re){anims.forEach(x=>x.cancel());
+   const tl=new ScrollTimeline({source:document.documentElement,axis:'block'});
+   anims=G.map((el,i)=>el.animate([...Array(49)].map((_,k)=>{const q=pose(i,k/48);return{transform:T(q),opacity:q[5]}}),{timeline:tl,fill:'both',easing:'linear'}))}
+  return}
+ place(target())}
+let ticking=false;
+function onScroll(){if(!still){const span=L.max-L.fs;end.style.setProperty('--p',span>150?cl((scrollY-L.fs)/span):1)}
+ if(!('ScrollTimeline' in window))place(target())}
+addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(()=>{ticking=false;onScroll()})}},{passive:true});
+addEventListener('resize',()=>{layout();onScroll()});matchMedia('(prefers-color-scheme:dark)').addEventListener('change',()=>{paint();layout()});
+paint();document.fonts.ready.then(()=>{layout();onScroll()});layout();onScroll();
+})();
+
+</script>
+</body>
+</html>
