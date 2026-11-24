@@ -175,7 +175,7 @@ footer small{font-size:12px}
 .stage::before{content:"";position:absolute;inset:-56px -50vw -48px;z-index:-1;pointer-events:none;background:linear-gradient(transparent,var(--bg) 48px,var(--bg) calc(100% - 56px),transparent)}
 .cam{transform:scale(.8);transform-origin:50% 0;margin:0 -42px calc(613px*-.2)}
 .steps{grid-row:2}
-.steps li{min-height:32vh;text-align:center;align-items:center}
+.steps li{min-height:20vh;text-align:center;align-items:center}
 }
 h1,h2{text-wrap:balance}p{text-wrap:pretty}
 @media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
@@ -563,7 +563,7 @@ function aim(){const s=+cam.dataset.s,W=420,H=760,pw=phone.offsetWidth,ph=phone.
  const k=1.38,cy=ph*(69+(r[1]+r[3])/2*2622)/2760;phone.style.transform=`translate(${(W-k*pw)/2}px,${H/2-k*cy}px) scale(${k})`}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
  document.querySelectorAll('.steps li.on').forEach(l=>l.classList.remove('on'));
- e.target.classList.add('on');cam.dataset.s=e.target.dataset.s;aim()}),{rootMargin:matchMedia('(max-width:760px)').matches?'-58% 0px -30% 0px':'-50% 0px -40% 0px'});
+ e.target.classList.add('on');cam.dataset.s=e.target.dataset.s;aim()}),{rootMargin:matchMedia('(max-width:760px)').matches?'-55% 0px -24% 0px':'-50% 0px -40% 0px'});
 document.querySelectorAll('.steps li').forEach(l=>io.observe(l));aim();
 </script>
 <script>
