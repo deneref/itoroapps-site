@@ -572,10 +572,14 @@ function aim(){const s=+cam.dataset.s,W=420,H=760,pw=phone.offsetWidth,ph=phone.
  lifts.forEach(l=>l.classList.toggle('on',+l.dataset.r===s));
  if(!r){phone.style.transform=`translate(${(W-pw)/2}px,${(H-ph)/2}px)`;return}
  const k=1.38,cy=ph*(69+(r[1]+r[3])/2*2622)/2760;phone.style.transform=`translate(${(W-k*pw)/2}px,${H/2-k*cy}px) scale(${k})`}
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
- document.querySelectorAll('.steps li.on').forEach(l=>l.classList.remove('on'));
- e.target.classList.add('on');cam.dataset.s=e.target.dataset.s;aim()}),{rootMargin:matchMedia('(max-width:760px)').matches?'-55% 0px -24% 0px':'-50% 0px -40% 0px'});
-document.querySelectorAll('.steps li').forEach(l=>io.observe(l));aim();
+const steps=[...document.querySelectorAll('.steps li')];
+function act(t){if(t.classList.contains('on'))return;steps.forEach(l=>l.classList.remove('on'));t.classList.add('on');cam.dataset.s=t.dataset.s;aim()}
+if(matchMedia('(max-width:760px)').matches){
+ let q=0;const pick=()=>{q=0;const L=innerHeight*.84;let cur=null;for(const l of steps){const r=l.lastElementChild.getBoundingClientRect();if(r.top+r.height/2<L)cur=l}if(cur)act(cur)};
+ addEventListener('scroll',()=>{if(!q)q=requestAnimationFrame(pick)},{passive:true});addEventListener('resize',pick);pick()
+}else{
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)act(e.target)}),{rootMargin:'-50% 0px -40% 0px'});steps.forEach(l=>io.observe(l))}
+aim();
 </script>
 <script>
 document.documentElement.classList.add('js');
