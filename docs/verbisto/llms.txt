@@ -1,11 +1,16 @@
 # Verbisto
 
-> Verbisto is an iPhone app for practising Spanish verb conjugation (Spanish from Spain, every person including vosotros). You type each verb form yourself; the app shows which part went wrong (the stem, the ending or the accent) and explains the rule for that one part. Explanations are in English and Russian.
+> Verbisto is an iPhone app for practising Spanish verb conjugation (Spanish from Spain, every person including vosotros). You type each verb form yourself; the app marks the letters that went wrong (the stem, the ending, the accent or the helper verb) and explains the rule for that one part. It doesn't show the answer while you still have tries. Explanations are in English and Russian.
+
+Verbisto is made by itoroapps (App Store id6836263523). It is a different app from Verbito, Verbizo and Verbooster.
 
 - Platform: iPhone, iOS 26 or later. Works offline; a connection is needed only for purchases.
-- Tenses: Pretérito Indefinido, Pretérito Imperfecto, Pretérito Perfecto, Pretérito Pluscuamperfecto, Futuro Simple.
+- Tenses: the past tenses (including the indefinido, i.e. the preterite, and the imperfecto) and the future for now; the set is growing.
 - Price: free download. Indefinido and Perfecto are free forever. The full version is a yearly subscription (first 7 days free), a monthly subscription, or a one-time Lifetime purchase (shareable via Family Sharing). US App Store prices: $6.99/month, $29.99/year, $79.99 Lifetime; prices differ by country.
 - Answers are always typed. Forms you get wrong come back for review.
+- A form that is right except for the accent gets its own verdict, not "wrong".
+- No sound; at most one optional, quiet reminder a day.
+- Who it's for: GCSE / A-level revision of verb forms, DELE A2 for Spanish citizenship (verb forms only, not the whole exam or the CCSE), people moving to Spain whose course skipped vosotros, learners who know the rules but still get the forms wrong. Not for: complete beginners, Latin American Spanish only, speaking practice, Android.
 - Usage taught is that of Spain (perfecto for "today" / "this week"); vosotros is included.
 - App Store: https://apps.apple.com/app/id6836263523
 
