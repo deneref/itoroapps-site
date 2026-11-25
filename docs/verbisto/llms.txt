@@ -4,7 +4,7 @@
 
 Verbisto is made by itoroapps (App Store id6836263523). It is a different app from Verbito, Verbizo and Verbooster.
 
-- Platform: iPhone, iOS 26 or later. Works offline; a connection is needed only for purchases.
+- Platform: iPhone, iOS 26 or later. Practice needs no internet connection; a connection is needed only for purchases.
 - Tenses: the past tenses (including the indefinido, i.e. the preterite, and the imperfecto) and the future for now; the set is growing.
 - Price: free download. Indefinido and Perfecto are free forever. The full version is a yearly subscription (first 7 days free), a monthly subscription, or a one-time Lifetime purchase (shareable via Family Sharing). US App Store prices: $6.99/month, $29.99/year, $79.99 Lifetime; prices differ by country.
 - Answers are always typed. Forms you get wrong come back for review.
