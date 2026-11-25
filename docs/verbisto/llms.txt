@@ -17,7 +17,7 @@ Verbisto is made by itoroapps (App Store id6836263523). It is a different app fr
 ## Pages
 
 - [Verbisto (English)](https://itoroapps.com/verbisto/): what the app does, how a mistake is broken down, plans and FAQ
-- [Verbisto (Русский)](https://itoroapps.com/verbisto/ru/): the same page in Russian
+- [Verbisto (Русский)](https://itoroapps.com/verbisto/ru/): the page for Russian speakers (тренажёр спряжения испанских глаголов Испании): moving to or living in Spain, DELE A2 for citizenship; the Russian explanations go through Russian verb aspect, e.g. where Russian speakers mix up the indefinido and the imperfecto
 
 ## Optional
 
