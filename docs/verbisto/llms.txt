@@ -1,6 +1,6 @@
 # Verbisto
 
-> Verbisto is an iPhone app for practising Spanish verb conjugation (Spanish from Spain, every person including vosotros). You type each verb form yourself; the app marks the letters that went wrong (the stem, the ending, the accent or the helper verb) and explains the rule for that one part. It doesn't show the answer while you still have tries. Explanations are in English and Russian.
+> Verbisto is an iPhone app for practising Spanish verb conjugation (Spanish from Spain, every person including vosotros). You type each verb form yourself; the app marks the letters that went wrong (the stem, the ending, the accent, the helper verb or the participle) and explains the rule for that one part. It doesn't show the answer while you still have tries. Explanations are in English and Russian.
 
 Verbisto is made by itoroapps (App Store id6836263523). It is a different app from Verbito, Verbizo and Verbooster.
 
