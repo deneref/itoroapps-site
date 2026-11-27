@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>itoroapps — independent iPhone apps</title>
-<meta name="description" content="itoroapps publishes léxito and verbisto — iPhone apps for Spanish as it is spoken in Spain.">
+<title>itoroapps — iPhone apps for Spain Spanish: léxito dictionary and verbisto verb practice</title>
+<meta name="description" content="Two iPhone apps for Spanish as it's spoken in Spain (Castilian, vosotros included): léxito, a Spanish–English dictionary that shows when a word is slang, rude or Latin American, and verbisto, verb conjugation practice that shows exactly where your form went wrong.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="/favicon.png">
 <link rel="canonical" href="https://itoroapps.com/">
@@ -112,6 +112,7 @@ h1{margin:0;font:400 clamp(46px,9cqh,108px)/.98 var(--serif);letter-spacing:-.02
 h1 .l{display:block;overflow:hidden;padding-bottom:.06em}
 h1 .l span{display:block;animation:rise 1.1s var(--ease) backwards}
 h1 .l:nth-child(2) span{animation-delay:.12s;color:var(--f-muted)}
+.head .sub{margin:18px 0 0;max-width:40ch;font:16px/1.45 var(--sans);color:var(--f-text);animation:arrive 1.2s var(--ease) .3s backwards}
 .hint{position:absolute;z-index:20;right:32px;bottom:44px;margin:0;font:12.5px/1.5 var(--mono);color:var(--f-muted);text-align:right}
 .hint a{color:var(--f-text);text-decoration:none}
 .hint a:hover{text-decoration:underline}
@@ -137,6 +138,14 @@ h1 .l:nth-child(2) span{animation-delay:.12s;color:var(--f-muted)}
   .head{animation:lift linear both;animation-timeline:scroll(root);animation-range:0px 700px}
   @keyframes lift{to{opacity:0;transform:translateY(-60px)}}
 }
+
+/* ── FAQ ── */
+.faq{ padding-bottom:96px; max-width:760px; }
+.faq h2{ margin:0 0 16px; font:400 36px/1.1 var(--serif); letter-spacing:-.02em; }
+.faq details{ border-top:1px solid var(--line); padding:16px 0; }
+.faq details:last-child{ border-bottom:1px solid var(--line); }
+.faq summary{ cursor:pointer; font-size:18px; font-weight:600; }
+.faq p{ margin:10px 0 0; color:var(--muted); line-height:1.55; max-width:60ch; }
 
 /* ── App cards (from variant A) ───────────────────────── */
 .apps{ display:grid; gap:24px; padding-top:72px; padding-bottom:96px; }
@@ -184,6 +193,7 @@ h1 .l:nth-child(2) span{animation-delay:.12s;color:var(--f-muted)}
 .tags{ display:flex; flex-wrap:wrap; gap:6px; margin:0 0 28px; padding:0; list-style:none; }
 .tags li{ font:13px/1 var(--mono); padding:6px 10px; border-radius:999px; border:1.5px solid currentColor; }
 .tags li.fill{ background:#C5C1E6; border-color:#C5C1E6; color:#2B2A26; }
+.for{ margin:-8px 0 28px; font-size:14px; line-height:1.45; color:var(--c-muted); max-width:46ch; }
 .tags-cap{ font-size:12px; color:var(--c-muted); margin:0 0 8px; }
 
 /* verbisto — pale blue sheet, blue mark, wavy-red mistake */
@@ -281,8 +291,8 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
 </style>
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://itoroapps.com/">
-<meta property="og:title" content="itoroapps — independent iPhone apps">
-<meta property="og:description" content="léxito and Verbisto: iPhone apps for Spanish as it is spoken in Spain.">
+<meta property="og:title" content="itoroapps — iPhone apps for Spain Spanish: léxito dictionary and verbisto verb practice">
+<meta property="og:description" content="Two iPhone apps for Spanish as it's spoken in Spain (Castilian, vosotros included): léxito, a Spanish–English dictionary that shows when a word is slang, rude or Latin American, and verbisto, verb conjugation practice that shows exactly where your form went wrong.">
 <meta property="og:image" content="https://itoroapps.com/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -300,7 +310,8 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
    "email": "hello@itoroapps.com",
    "sameAs": [
     "https://www.instagram.com/lexito.verbisto.apps/"
-   ]
+   ],
+   "description": "Two iPhone apps for Spanish as it's spoken in Spain (Castilian, vosotros included): léxito, a Spanish–English dictionary that shows when a word is slang, rude or Latin American, and verbisto, verb conjugation practice that shows exactly where your form went wrong."
   },
   {
    "@type": "ItemList",
@@ -315,7 +326,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
       "name": "léxito",
       "url": "https://itoroapps.com/lexito/",
       "sameAs": "https://apps.apple.com/app/id6820599112",
-      "description": "A Spain Spanish dictionary for iPhone that shows what a word means and how it lands: colloquial, slang, rude, dated, or Latin American rather than Spain. More than 100,000 entries, built on Wiktionary data. Works offline, no sign-up.",
+      "description": "A Castilian Spanish–English dictionary for iPhone. Where a meaning is colloquial, slang, rude, dated or Latin American, léxito says so. Words you look up come back for review. Works offline, no sign-up, no ads.",
       "operatingSystem": "iOS 26.5 or later",
       "applicationCategory": "EducationalApplication",
       "inLanguage": [
@@ -350,7 +361,38 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
       },
       "publisher": {
        "@id": "https://itoroapps.com/#org"
-      }
+      },
+      "description": "Verbisto is an iPhone app for Spanish verb conjugation practice, Spanish from Spain with vosotros. You type each form; it marks the exact letters that went wrong (stem, ending, accent, helper verb or participle) and explains the rule for that spot."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "inLanguage": "en",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Which app do I need?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "léxito if you read Spanish and want to know what a word means and how it lands. verbisto if you know the tenses but still get the verb forms wrong. They work well together."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Spain Spanish or Latin American?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Spain. Both apps use the Spanish of Spain as the norm, vosotros included. léxito flags Latin American meanings, often with the word used in Spain."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "iPhone only?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. There is no iPad or Android version."
      }
     }
    ]
@@ -370,29 +412,30 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
 
   <div class="stage">
     <!-- App 1: léxito. Adding an app = one more <a class="g"> group + its position block + one card below. -->
-    <a class="g" href="/lexito/" aria-label="léxito — Spanish words from what you read. Open the app page.">
+    <a class="g" href="/lexito/" aria-label="léxito — Spain Spanish–English dictionary. Open the app page.">
       <span class="o glow lx-glow" aria-hidden="true"></span>
       <span class="o ph vfar lx-vfar"><img src="/lexito/img/carro.webp" width="760" height="1554" alt="léxito on iPhone: “carro” flagged as Latin-American — in Madrid, say coche."></span>
       <span class="o ph far lx-far"><img src="/lexito/img/scan.webp" width="760" height="1554" alt="léxito on iPhone: a photographed book page, ready to tap a word."></span>
       <span class="o ph lx-near"><img src="/lexito/img/chaval.webp" width="760" height="1554" alt="léxito on iPhone: the card for “chaval” — kid, boy — with how each synonym lands."></span>
       <span class="o ic mid lx-ic"><img src="/img/lexito-icon.webp" width="256" height="256" alt="léxito app icon"></span>
-      <span class="cap lx-cap"><b><sup>1</sup> léxito <span class="go" aria-hidden="true">→</span></b>Spanish words from what you read.</span>
+      <span class="cap lx-cap"><b><sup>1</sup> léxito <span class="go" aria-hidden="true">→</span></b>Spain Spanish–English dictionary.</span>
     </a>
 
     <!-- App 2: verbisto -->
-    <a class="g" href="/verbisto/" aria-label="verbisto — Spanish verb practice. Open the app page.">
+    <a class="g" href="/verbisto/" aria-label="verbisto — Spanish verb conjugation practice. Open the app page.">
       <span class="o glow vb-glow" aria-hidden="true"></span>
       <span class="o ph vfar vb-vfar"><img src="/img/verbisto-razbor-dark.webp" width="760" height="1554" alt="verbisto on iPhone, dark theme: “empecasteis” — the stem is off."></span>
       <span class="o ph far vb-far"><img src="/img/verbisto-type.webp" width="760" height="1554" alt="verbisto on iPhone: typing “hablaréis” letter by letter."></span>
       <span class="o ph vb-near"><img src="/img/verbisto-razbor.webp" width="760" height="1554" alt="verbisto on iPhone: “empecasteis” with the wrong stem marked — “The stem is off.”"></span>
       <span class="o ic mid vb-ic"><img src="/img/verbisto-icon.webp" width="384" height="384" alt="verbisto app icon"></span>
-      <span class="cap vb-cap"><b><sup>2</sup> verbisto <span class="go" aria-hidden="true">→</span></b>Spanish verb practice.</span>
+      <span class="cap vb-cap"><b><sup>2</sup> verbisto <span class="go" aria-hidden="true">→</span></b>Spanish verb conjugation, vosotros included.</span>
     </a>
   </div>
 
   <div class="head">
     <p class="wm" translate="no">itoro<i>·</i>apps</p>
-    <h1><span class="l"><span>Independent</span></span><span class="l"><span>iPhone apps.</span></span></h1>
+    <h1><span class="l"><span>Independent </span></span><span class="l"><span>iPhone apps.</span></span></h1>
+    <p class="sub">Two iPhone apps for Spanish as it’s spoken in Spain — Castilian, not Latin American: one for the words you read, one for the verb forms you type.</p>
   </div>
   <p class="hint"><span class="ptr">Point at one to bring it into focus.<br></span><a href="#apps">The apps ↓</a></p>
 </header>
@@ -407,16 +450,17 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
           <img class="icon" src="/img/lexito-icon.webp" width="256" height="256" alt="léxito app icon">
           <h2 id="lexito-h">léxito</h2>
         </div>
-        <p class="lede">Spanish words from what you read.</p>
+        <p class="lede">A Spain Spanish–English dictionary: what a word means and how it lands.</p>
         <p class="tags-cap">shows how a word lands</p>
         <ul class="tags" aria-label="Register tags">
-          <li class="fill">colloquial</li><li>slang</li><li>dated</li><li>literary</li>
+          <li class="fill">colloquial</li><li>slang</li><li>rare / dated</li><li>literary / formal</li>
         </ul>
         <ul class="facts">
           <li>Snap a page. Tap the word.</li>
           <li>It comes back before you forget.</li>
           <li>Works offline. No sign-up.</li>
         </ul>
+        <p class="for">For you if you read Spanish (best from B1), live in Spain, or watch series from Spain.</p>
         <div class="actions">
           <a class="visit" href="/lexito/" aria-label="Visit the léxito app page">Visit the app page <span class="arr" aria-hidden="true">→</span></a>
           <a class="badge" href="https://apps.apple.com/app/apple-store/id6820599112?ct=site-hub&amp;mt=8"><img src="/lexito/img/app-store-badge-black.svg" width="120" height="40" alt="Download léxito on the App Store"></a>
@@ -430,7 +474,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
 
     <article class="card card--verbisto" id="verbisto" aria-labelledby="verbisto-h">
       <div class="card__text">
-        <div class="card__head"><span class="num">02</span><span class="kicker">Spanish verb practice</span></div>
+        <div class="card__head"><span class="num">02</span><span class="kicker">Spanish verb conjugation practice, vosotros included</span></div>
         <div class="card__title">
           <img class="icon" src="/img/verbisto-icon.webp" width="384" height="384" alt="verbisto app icon">
           <h2 id="verbisto-h">verbisto</h2>
@@ -446,6 +490,7 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
           <li>Forms you get wrong come back a few tasks later.</li>
           <li>Indefinido and Perfecto are free forever.</li>
         </ul>
+        <p class="for">For you if you’re revising for GCSE or A-level, preparing for DELE A2, or moving to Spain.</p>
         <div class="actions">
           <a class="visit" href="/verbisto/" aria-label="Visit the verbisto app page">Visit the app page <span class="arr" aria-hidden="true">→</span></a>
           <a class="badge" href="https://apps.apple.com/app/apple-store/id6836263523?pt=129550662&amp;ct=site-hub&amp;mt=8"><img src="/lexito/img/app-store-badge-black.svg" width="120" height="40" alt="Download verbisto on the App Store"></a>
@@ -461,6 +506,13 @@ footer{ border-top:1px solid var(--line); padding:48px 0 56px; font-size:14px; }
     </article>
 
   </main>
+
+  <section class="wrap faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">Questions</h2>
+      <details><summary>Which app do I need?</summary><p>léxito if you read Spanish and want to know what a word means and how it lands. verbisto if you know the tenses but still get the verb forms wrong. They work well together.</p></details>
+      <details><summary>Spain Spanish or Latin American?</summary><p>Spain. Both apps use the Spanish of Spain as the norm, vosotros included. léxito flags Latin American meanings, often with the word used in Spain.</p></details>
+      <details><summary>iPhone only?</summary><p>Yes. There is no iPad or Android version.</p></details>
+  </section>
 
 <footer>
   <div class="wrap">

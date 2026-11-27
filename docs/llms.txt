@@ -1,6 +1,6 @@
 # itoroapps
 
-> itoroapps is an independent studio that makes iPhone apps for Spanish as it is spoken in Spain: léxito (a dictionary) and Verbisto (verb conjugation practice). Both are iPhone only; there is no Android or iPad version. Contact: hello@itoroapps.com
+> itoroapps is an independent studio that makes iPhone apps for Spanish as it is spoken in Spain (Castilian, also called European or Peninsular Spanish, vosotros included): léxito (a dictionary) and Verbisto (verb conjugation practice). Both are iPhone only; there is no Android or iPad version. Contact: hello@itoroapps.com. itoroapps is not related to iToro or eToro.
 
 ## léxito
 
