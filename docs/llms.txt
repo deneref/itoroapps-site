@@ -4,7 +4,7 @@
 
 ## léxito
 
-léxito is a Spain Spanish dictionary for people who already read in Spanish (best from B2). It shows not only what a word means but how it lands: colloquial, slang, vulgar / taboo, derogatory, rare / dated, or Latin American rather than Spain. Tone/register labels appear on about 8,000 of 148,000 meanings; most meanings are everyday, neutral Spanish and carry no label. The whole dictionary works on the iPhone without internet.
+léxito is a Spain Spanish dictionary for people who already read in Spanish (best from B1). It shows not only what a word means but how it lands: colloquial, slang, vulgar / taboo, derogatory, rare / dated, or Latin American rather than Spain. Tone/register labels appear on about 8,000 of 148,000 meanings; most meanings are everyday, neutral Spanish and carry no label. The whole dictionary works on the iPhone without internet.
 
 - Platform: iPhone, iOS 26.5 or later. Interface in English and Spanish.
 - Dictionary: 108,058 entries and 147,819 meanings, built on Wiktionary data (via kaikki.org, CC BY-SA 4.0); word frequency from wordfreq. The norm is Spain; Latin American meanings are marked as such. Updated every three months, updates included.
