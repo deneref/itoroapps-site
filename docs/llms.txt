@@ -4,15 +4,17 @@
 
 ## léxito
 
-léxito is a Spain Spanish dictionary for people who already read in Spanish (about B2 and up). It shows not only what a word means but how it lands: colloquial, slang, rude, dated, or Latin American rather than Spain. The whole dictionary works on the iPhone without internet.
+léxito is a Spain Spanish dictionary for people who already read in Spanish (about B2 and up). It shows not only what a word means but how it lands, where the source marks it: colloquial, slang, vulgar / taboo, derogatory, rare / dated, or Latin American rather than Spain. No label means the source didn’t mark it, not that the word is neutral or safe. The whole dictionary works on the iPhone without internet.
 
 - Platform: iPhone, iOS 26.5 or later. Interface in English and Spanish.
-- Dictionary: more than 100,000 entries, built on Wiktionary data (via kaikki.org, CC BY-SA 4.0); word frequency from wordfreq. The norm is Spain; Latin American meanings are marked as such. Updated every three months, updates included.
-- Catching words: photo of a paper page, Share from Apple Books or Safari, or typing. Conjugated forms open the dictionary form. Words you look up come back for review.
+- Dictionary: 108,058 entries and 147,819 meanings, built on Wiktionary data (via kaikki.org, CC BY-SA 4.0); word frequency from wordfreq. The norm is Spain; Latin American meanings are marked as such. Updated every three months, updates included.
+- Labels: most come from Wiktionary (English and Spanish), brought into one RAE-style list. The warnings “careful: regional trap” (harmless in Spain, rude in parts of Latin America, e.g. coger) and “careful: false friend”, and the “in neutral speech: …” hint (e.g. carro → coche), are added by the léxito team.
+- Meanings: an English translation for every meaning; a Spanish definition for about 62 % of meanings, most common words included. No Russian or other languages.
+- Catching words: typing (misspellings forgiven), a photo of a paper page, a screenshot or photo from your library, sharing selected text from Safari or another app that shares text, or copy and paste. About 1.19 million conjugated forms open the dictionary form; about 17,900 multi-word expressions. Words you look up come back for review.
 - Photos and text are processed on the device. No account, no ads, no AI or online translation inside the app; if a word is missing, the app links to the RAE dictionary.
 - Your word library syncs through your own iCloud and can be exported.
 - Price: free download. The first 14 days everything is open and nothing is charged. After that you keep up to 150 words for free (review, search, lists, widget and export keep working). léxito unlimited removes the word limit and adds extra app icons: a yearly subscription ($39.99/year in the US App Store) or a one-time lifetime purchase ($99.99 in the US). Prices differ by country. No monthly plan.
-- Not for: beginners (A1–A2), learners of Latin American Spanish, anyone who wants a course, grammar lessons, conjugation tables or pronunciation (there is no audio).
+- Not for: beginners (A1–A2), learners of Latin American Spanish, anyone who wants a course, grammar lessons, conjugation tables, pronunciation (there is no audio), an AI conversation partner, or translation of whole sentences and texts. No iPad or Android version.
 - App Store: https://apps.apple.com/app/id6820599112
 
 ## Verbisto
