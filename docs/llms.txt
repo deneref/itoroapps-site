@@ -4,7 +4,7 @@
 
 ## léxito
 
-léxito is a Spain Spanish dictionary for people who already read in Spanish (about B2 and up). It shows not only what a word means but how it lands, where the source marks it: colloquial, slang, vulgar / taboo, derogatory, rare / dated, or Latin American rather than Spain. The whole dictionary works on the iPhone without internet.
+léxito is a Spain Spanish dictionary for people who already read in Spanish (about B2 and up). It shows not only what a word means but how it lands: colloquial, slang, vulgar / taboo, derogatory, rare / dated, or Latin American rather than Spain. Tone/register labels appear on about 8,000 of 148,000 meanings; most meanings are everyday, neutral Spanish and carry no label. The whole dictionary works on the iPhone without internet.
 
 - Platform: iPhone, iOS 26.5 or later. Interface in English and Spanish.
 - Dictionary: 108,058 entries and 147,819 meanings, built on Wiktionary data (via kaikki.org, CC BY-SA 4.0); word frequency from wordfreq. The norm is Spain; Latin American meanings are marked as such. Updated every three months, updates included.
@@ -14,7 +14,8 @@ léxito is a Spain Spanish dictionary for people who already read in Spanish (ab
 - Photos and text are processed on the device. No account, no ads, no AI or online translation inside the app; if a word is missing, the app links to the RAE dictionary.
 - Your word library syncs through your own iCloud and can be exported.
 - Price: free download. The first 14 days everything is open and nothing is charged. After that you keep up to 150 words for free (review, search, lists, widget and export keep working). léxito unlimited removes the word limit and adds extra app icons: a yearly subscription ($39.99/year in the US App Store) or a one-time lifetime purchase ($99.99 in the US). Prices differ by country. No monthly plan.
-- Not for: beginners (A1–A2), learners of Latin American Spanish, anyone who wants a course, grammar lessons, conjugation tables, pronunciation (there is no audio), an AI conversation partner, or translation of whole sentences and texts. No iPad or Android version.
+- Also useful for: people who learned Latin American Spanish and now live or study in Spain (regional traps such as coger), Erasmus and exchange students, viewers of series from Spain.
+- Not for: beginners (A1–A2), anyone who needs Latin American Spanish as their norm, anyone who wants a course, grammar lessons, conjugation tables, pronunciation (there is no audio), an AI conversation partner, or translation of whole sentences and texts. No iPad or Android version.
 - App Store: https://apps.apple.com/app/id6820599112
 
 ## Verbisto

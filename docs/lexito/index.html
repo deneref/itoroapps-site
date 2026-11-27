@@ -202,6 +202,15 @@ details::details-content { block-size: 0; overflow: clip; transition: block-size
 details[open]::details-content { block-size: auto; }
 :root { interpolate-size: allow-keywords; }
 
+
+/* ---------- who it's for ---------- */
+.fit { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 56px; margin-top: 8px; }
+.fit h3 { font: 800 22px/1.2 var(--sans); letter-spacing: -.015em; margin: 0 0 10px; }
+.fit li { font-size: 18px; }
+.fit .no { color: var(--ink68); }
+.fit .also { font-size: 16px; color: var(--ink68); margin: 18px 0 0; }
+@media (max-width: 820px) { .fit { grid-template-columns: 1fr; } .fit li { font-size: 17px; } }
+
 /* ---------- final CTA ---------- */
 .end { text-align: center; }
 .end .wrap { display: block; }
@@ -327,7 +336,7 @@ footer .tm { flex-basis: 100%; color: var(--ink68); }
      "name": "Is this word rude in Spain?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "If the source marks a meaning as vulgar / taboo or derogatory, léxito shows it. “Careful: regional trap” warns when a harmless Spanish word is rude in parts of Latin America."
+      "text": "Meanings marked vulgar / taboo or derogatory say so right in the entry. If a word is fine in Spain but rude in parts of Latin America, you’ll see “careful: regional trap” — coger is the classic example."
      }
     },
     {
@@ -423,7 +432,7 @@ footer .tm { flex-basis: 100%; color: var(--ink68); }
       <p class="eyebrow fadein">Spain Spanish dictionary · iPhone</p>
       <h1 id="h-hero"><span class="ln"><span style="--i:0">Spanish</span></span><span class="ln"><span style="--i:1">as Spain</span></span><span class="ln"><span style="--i:2">speaks it</span></span></h1>
       <div class="fadein">
-        <p class="lead">What a word means and how it lands: casual, slang, rude, old-fashioned, or not said in Spain at all.</p>
+        <p class="lead">What a word means and how it lands: casual, slang, rude, old-fashioned, or not said in Spain at all. Words you look up come back for review just before you’d forget them.</p>
         <a class="badge" href="https://apps.apple.com/app/apple-store/id6820599112?ct=site-en-hero&amp;mt=8"><img src="img/app-store-badge-black.svg" width="144" height="48" alt="Download on the App Store"></a>
         <p class="fine">For iPhone · everything open for 14 days · no sign-up</p>
       </div>
@@ -459,6 +468,41 @@ footer .tm { flex-basis: 100%; color: var(--ink68); }
   </div>
 </div>
 
+<!-- who it's for (paper) -->
+<section class="band b-paper zz" aria-labelledby="h-fit">
+  <div class="wrap">
+    <p class="eyebrow">Who it’s for</p>
+    <h2 id="h-fit">Is it for you?</h2>
+    <div class="fit">
+      <div>
+        <h3>Yes, if</h3>
+        <ul class="ticks">
+          <li>You read in Spanish — books, news, articles — and want to know how a word lands, not just what it means.</li>
+          <li>You learn from real texts: a photo of a paper page, an article in Safari.</li>
+          <li>You live in Spain or are moving there — for work, study or Erasmus.</li>
+          <li>You learned Latin American Spanish and now live or study in Spain — where coger and carro can trip you up.</li>
+          <li>You watch series from Spain and want the slang you hear — type in the word.</li>
+          <li>You want the words you look up to come back on a schedule, before you forget them.</li>
+        </ul>
+        <p class="also">Also handy if you work with Spanish colleagues, are preparing for DELE C1 or C2, or have a Spanish partner or in-laws.</p>
+      </div>
+      <div class="no">
+        <h3>Not for</h3>
+        <ul class="ticks">
+          <li>Beginners (A1–A2).</li>
+          <li>You need Latin American Spanish as your norm.</li>
+          <li>A course or grammar lessons.</li>
+          <li>Pronunciation — there is no audio.</li>
+          <li>An AI conversation partner.</li>
+          <li>Translating whole sentences or texts — léxito explains words and phrases.</li>
+          <li>Explanations in a language other than English — meanings are in English (and Spanish).</li>
+          <li>Android. There is no iPad version.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- 2 · register (gold) -->
 <section class="band b-gold zz flip" aria-labelledby="h-reg">
   <div class="wrap">
@@ -466,7 +510,7 @@ footer .tm { flex-basis: 100%; color: var(--ink68); }
       <p class="eyebrow">How a word lands</p>
       <h2 id="h-reg">Fine with friends. Not in an interview.</h2>
       <p>The Spanish in Spain isn’t the Spanish from your course. Tío means uncle — and also “dude.” Currar means “to work.” Just don’t say it in a job interview.</p>
-      <p>Every meaning is listed separately, marked where the source marks it: colloquial, slang, vulgar / taboo, derogatory, children’s speech, literary / formal, rare / dated.</p>
+      <p>Every meaning is listed separately. Most are everyday, neutral Spanish and need no label; where a meaning has a tone, it’s marked: colloquial, slang, vulgar / taboo, derogatory, children’s speech, literary / formal, rare / dated.</p>
       <p>Vulgar or taboo meanings say so. If a word is harmless in Spain but rude in parts of Latin America, you see “careful: regional trap” — coger is one.</p>
     </div>
     <div class="stage">
@@ -592,7 +636,7 @@ footer .tm { flex-basis: 100%; color: var(--ink68); }
     <details><summary>Do I need an account?</summary><p>No. No sign-up, no ads. The whole dictionary lives on your iPhone.</p></details>
     <details><summary>Will my words appear on my other devices?</summary><p>Yes, if iCloud is on: only your word library syncs, through your own iCloud. You can export it at any time.</p></details>
     <details><summary>What happens after 14 days?</summary><p>Nothing is charged and nothing renews. You keep up to 150 words for free; léxito unlimited removes the limit.</p></details>
-    <details><summary>Is this word rude in Spain?</summary><p>If the source marks a meaning as vulgar / taboo or derogatory, léxito shows it. “Careful: regional trap” warns when a harmless Spanish word is rude in parts of Latin America.</p></details>
+    <details><summary>Is this word rude in Spain?</summary><p>Meanings marked vulgar / taboo or derogatory say so right in the entry. If a word is fine in Spain but rude in parts of Latin America, you’ll see “careful: regional trap” — coger is the classic example.</p></details>
     <details><summary>Where do the labels come from?</summary><p>Most labels come from Wiktionary (English and Spanish), brought into one RAE-style list. The regional-trap and false-friend warnings and the “in neutral speech” hints are added by the léxito team.</p></details>
     <details><summary>Is it for Latin American Spanish?</summary><p>No. The norm is the Spanish of Spain. Latin American meanings are flagged, often with the word to use in Spain.</p></details>
     <details><summary>Does it work offline?</summary><p>Yes. The whole dictionary lives on your iPhone.</p></details>
